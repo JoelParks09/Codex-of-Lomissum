@@ -1,0 +1,99 @@
+@media (max-width: 860px) {
+  .app-shell {
+    padding-block: 36px;
+  }
+
+  .page-shell,
+  .worlds-shell,
+  .heroes-shell,
+  .player-shell,
+  .markdown-shell {
+    padding-top: 142px;
+  }
+
+  .home-shell {
+    align-content: start;
+    padding-top: 142px;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+    width: min(430px, 100%);
+  }
+
+  .site-nav {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .site-brand {
+    text-align: center;
+  }
+
+  .nav-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search-bar,
+  .back-link {
+    width: 100%;
+  }
+
+  .search-results {
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+
+  .world-card {
+    grid-template-columns: 1fr;
+  }
+
+  .world-icon-frame {
+    width: min(260px, 100%);
+    justify-self: center;
+  }
+
+  .world-copy {
+    text-align: center;
+  }
+
+  .player-profile {
+    grid-template-columns: 1fr;
+  }
+
+  .player-info-panel {
+    position: static;
+    width: min(360px, 100%);
+    justify-self: center;
+  }
+
+  .player-facts,
+  .ability-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .markdown-layout {
+    width: 100%;
+  }
+
+  .markdown-content {
+    width: 100%;
+  }
+
+  .markdown-map-button {
+    float: none;
+    display: block;
+    width: min(420px, 100%);
+    margin: 0 auto 20px;
+  }
+
+  .markdown-side-nav {
+    position: static;
+    display: grid;
+    width: min(780px, 100%);
+    margin: 0 auto 18px;
+    order: -1;
+  }
+}

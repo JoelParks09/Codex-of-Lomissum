@@ -1,0 +1,30 @@
+.page-panel {
+  width: min(760px, 100%);
+  border: 1px solid rgba(234, 184, 91, 0.48);
+  border-radius: 8px;
+  padding: clamp(32px, 8vw, 72px);
+  background:
+    linear-gradient(135deg, rgba(164, 100, 35, 0.24), transparent 38%),
+    rgba(10, 13, 17, 0.86);
+  text-align: center;
+  box-shadow:
+    0 24px 70px rgba(0, 0, 0, 0.48),
+    inset 0 0 0 1px rgba(255, 239, 191, 0.08);
+}
+
+.page-panel h1 {
+  margin-bottom: 16px;
+  color: #fff3d7;
+  font-size: clamp(2.4rem, 8vw, 5rem);
+  line-height: 1;
+  letter-spacing: 0;
+  text-shadow: 0 0 24px rgba(230, 147, 57, 0.34);
+}
+
+.page-panel p {
+  margin-bottom: 0;
+  color: #cfc1a8;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  line-height: 1.65;
+}

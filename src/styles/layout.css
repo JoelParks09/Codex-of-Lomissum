@@ -1,0 +1,26 @@
+.home-shell,
+.page-shell,
+.worlds-shell,
+.heroes-shell,
+.player-shell,
+.markdown-shell {
+  isolation: isolate;
+}
+
+.page-shell,
+.worlds-shell,
+.heroes-shell,
+.player-shell,
+.markdown-shell {
+  display: grid;
+  align-content: start;
+  justify-items: center;
+  gap: 28px;
+  overflow: visible;
+  padding-top: 104px;
+}
+
+.page-shell {
+  align-content: center;
+  gap: 24px;
+}

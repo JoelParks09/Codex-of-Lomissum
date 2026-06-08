@@ -1,0 +1,65 @@
+[{
+    "name": "Del Ragon",
+    "race": "Half-Elf",
+    "class": "Sorcerer / Warlock",
+    "subclass": "Draconic Bloodline / Celestial",
+    "level": 13,
+    "portrait": "Del_Ragon.png",
+    "abilityScores": {
+        "strength": 10,
+        "dexterity": 14,
+        "constitution": 14,
+        "intelligence": 12,
+        "wisdom": 12,
+        "charisma": 20
+    },
+    "characterInfo": "Sample text here"
+}, {
+    "name": "Varon Arachna",
+    "race": "Vedalken",
+    "class": "Monk",
+    "subclass": "Kensei",
+    "level": 13,
+    "portrait": "Varon_Arachna.png",
+    "abilityScores": {
+        "strength": 13,
+        "dexterity": 16,
+        "constitution": 16,
+        "intelligence": 14,
+        "wisdom": 14,
+        "charisma": 13
+    },
+    "characterInfo": "Sample text here"
+}, {
+    "name": "PNCH-0",
+    "race": "Warforged",
+    "class": "Artificer",
+    "subclass": "Artillerist",
+    "level": 13,
+    "portrait": "Poncho.png",
+    "abilityScores": {
+        "strength": 14,
+        "dexterity": 16,
+        "constitution": 14,
+        "intelligence": 18,
+        "wisdom": 12,
+        "charisma": 10
+    },
+    "characterInfo": "Sample text here"
+}, {
+    "name": "Leyha",
+    "race": "Human",
+    "class": "Bard",
+    "subclass": "College of Lorehold",
+    "level": 13,
+    "portrait": "Leyha.png",
+    "abilityScores": {
+        "strength": 14,
+        "dexterity": 14,
+        "constitution": 10,
+        "intelligence": 14,
+        "wisdom": 14,
+        "charisma": 20
+    },
+    "characterInfo": "Sample text here"
+}]
