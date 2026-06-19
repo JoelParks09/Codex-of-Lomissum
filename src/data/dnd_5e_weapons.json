@@ -1,0 +1,202 @@
+[
+  {
+    "weapon": "Club",
+    "damage": "1d4 bludgeoning",
+    "properties": "Light"
+  },
+  {
+    "weapon": "Dagger",
+    "damage": "1d4 piercing",
+    "properties": "Finesse, light, thrown (20/60)"
+  },
+  {
+    "weapon": "Greatclub",
+    "damage": "1d8 bludgeoning",
+    "properties": "Two-handed"
+  },
+  {
+    "weapon": "Handaxe",
+    "damage": "1d6 slashing",
+    "properties": "Light, thrown (20/60)"
+  },
+  {
+    "weapon": "Javelin",
+    "damage": "1d6 piercing",
+    "properties": "Thrown (30/120)"
+  },
+  {
+    "weapon": "Light hammer",
+    "damage": "1d4 bludgeoning",
+    "properties": "Light, thrown (20/60)"
+  },
+  {
+    "weapon": "Mace",
+    "damage": "1d6 bludgeoning",
+    "properties": "—"
+  },
+  {
+    "weapon": "Quarterstaff",
+    "damage": "1d6 bludgeoning",
+    "properties": "Versatile (1d8)"
+  },
+  {
+    "weapon": "Sickle",
+    "damage": "1d4 slashing",
+    "properties": "Light"
+  },
+  {
+    "weapon": "Spear",
+    "damage": "1d6 piercing",
+    "properties": "Thrown (20/60), versatile (1d8)"
+  },
+  {
+    "weapon": "Crossbow, light",
+    "damage": "1d8 piercing",
+    "properties": "Ammunition, range (80/320), loading, two-handed"
+  },
+  {
+    "weapon": "Dart",
+    "damage": "1d4 piercing",
+    "properties": "Finesse, thrown (20/60)"
+  },
+  {
+    "weapon": "Shortbow",
+    "damage": "1d6 piercing",
+    "properties": "Ammunition, range (80/320), two-handed"
+  },
+  {
+    "weapon": "Sling",
+    "damage": "1d4 bludgeoning",
+    "properties": "Ammunition, range (30/120)"
+  },
+  {
+    "weapon": "Battleaxe",
+    "damage": "1d8 slashing",
+    "properties": "Versatile (1d10)"
+  },
+  {
+    "weapon": "Flail",
+    "damage": "1d8 bludgeoning",
+    "properties": "—"
+  },
+  {
+    "weapon": "Glaive",
+    "damage": "1d10 slashing",
+    "properties": "Heavy, reach, two-handed"
+  },
+  {
+    "weapon": "Greataxe",
+    "damage": "1d12 slashing",
+    "properties": "Heavy, two-handed"
+  },
+  {
+    "weapon": "Greatsword",
+    "damage": "2d6 slashing",
+    "properties": "Heavy, two-handed"
+  },
+  {
+    "weapon": "Halberd",
+    "damage": "1d10 slashing",
+    "properties": "Heavy, reach, two-handed"
+  },
+  {
+    "weapon": "Lance",
+    "damage": "1d12 piercing",
+    "properties": "Reach, special"
+  },
+  {
+    "weapon": "Longsword",
+    "damage": "1d8 slashing",
+    "properties": "Versatile (1d10)"
+  },
+  {
+    "weapon": "Maul",
+    "damage": "2d6 bludgeoning",
+    "properties": "Heavy, two-handed"
+  },
+  {
+    "weapon": "Morningstar",
+    "damage": "1d8 piercing",
+    "properties": "—"
+  },
+  {
+    "weapon": "Pike",
+    "damage": "1d10 piercing",
+    "properties": "Heavy, reach, two-handed"
+  },
+  {
+    "weapon": "Rapier",
+    "damage": "1d8 piercing",
+    "properties": "Finesse"
+  },
+  {
+    "weapon": "Scimitar",
+    "damage": "1d6 slashing",
+    "properties": "Finesse, light"
+  },
+  {
+    "weapon": "Shortsword",
+    "damage": "1d6 piercing",
+    "properties": "Finesse, light"
+  },
+  {
+    "weapon": "Trident",
+    "damage": "1d6 piercing",
+    "properties": "Thrown (20/60), versatile (1d8)"
+  },
+  {
+    "weapon": "War pick",
+    "damage": "1d8 piercing",
+    "properties": "—"
+  },
+  {
+    "weapon": "Warhammer",
+    "damage": "1d8 bludgeoning",
+    "properties": "Versatile (1d10)"
+  },
+  {
+    "weapon": "Whip",
+    "damage": "1d4 slashing",
+    "properties": "Finesse, reach"
+  },
+  {
+    "weapon": "Blowgun",
+    "damage": "1 piercing",
+    "properties": "Ammunition, range (25/100), loading"
+  },
+  {
+    "weapon": "Crossbow, hand",
+    "damage": "1d6 piercing",
+    "properties": "Ammunition, range (30/120), light, loading"
+  },
+  {
+    "weapon": "Crossbow, heavy",
+    "damage": "1d10 piercing",
+    "properties": "Ammunition, range (100/400), heavy, loading, two-handed"
+  },
+  {
+    "weapon": "Longbow",
+    "damage": "1d8 piercing",
+    "properties": "Ammunition, range (150/600), heavy, two-Handed"
+  },
+  {
+    "weapon": "Net",
+    "damage": "—",
+    "properties": "Special, thrown (5/15)"
+  },
+  {
+    "weapon": "Yklwa",
+    "damage": "1d8 Piercing",
+    "properties": "Thrown (10/30)"
+  },
+  {
+    "weapon": "Hoopak",
+    "damage": "1d6 piercing (melee) or 1d4 bludgeoning (ranged)",
+    "properties": "Ammunition (range 40/160), finesse, special, two-handed"
+  },
+  {
+    "weapon": "Double-Bladed Scimitar",
+    "damage": "2d4 Slashing",
+    "properties": "Special, two-handed"
+  }
+]

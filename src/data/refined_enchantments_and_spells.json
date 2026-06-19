@@ -1,0 +1,561 @@
+{
+  "refinedEnchantments": [
+    {
+      "enchantmentName": "Runed Edge",
+      "enchantmentEffect": "Once per turn when you hit with this weapon, you may deal an additional 1d4 force damage.",
+      "enchantmentEffectBrief": "Once per turn when you hit with this weapon, you may deal an additional 1d4 force damage.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Flame Tongue Spark",
+      "enchantmentEffect": "As a bonus action, wreathe the weapon in small flames for 1 minute. During this time, it deals an additional 1d4 fire damage once per turn. Once used, this property cannot be used again until the next dawn.",
+      "enchantmentEffectBrief": "As a bonus action, wreathe the weapon in small flames for 1 minute.",
+      "enchantmentAction": "Bonus",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Frostbrand Trace",
+      "enchantmentEffect": "Once per turn when you hit a creature, reduce that creature's speed by 5 feet until the start of your next turn.",
+      "enchantmentEffectBrief": "Once per turn when you hit a creature, reduce that creature's speed by 5 feet until the start of...",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Stormbite",
+      "enchantmentEffect": "Once per turn when you hit with this weapon, you may deal an additional 1d4 lightning damage.",
+      "enchantmentEffectBrief": "Once per turn when you hit with this weapon, you may deal an additional 1d4 lightning damage.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Venom Channel",
+      "enchantmentEffect": "As a bonus action, charge the weapon with venomous magic. The next creature hit by the weapon before the end of your turn takes an additional 1d6 poison damage. This property can be used a number of times equal to your proficiency bonus per long rest.",
+      "enchantmentEffectBrief": "As a bonus action, charge the weapon with venomous magic.",
+      "enchantmentAction": "Bonus",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Gravebite",
+      "enchantmentEffect": "Once per turn when you hit an Undead or Fiend with this weapon, deal an additional 1d4 radiant damage.",
+      "enchantmentEffectBrief": "Once per turn when you hit an Undead or Fiend with this weapon, deal an additional 1d4 radiant damage.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Serrated Momentum",
+      "enchantmentEffect": "When you score a critical hit with this weapon, the target takes 1d4 slashing damage at the start of its next turn.",
+      "enchantmentEffectBrief": "When you score a critical hit with this weapon, the target takes 1d4 slashing damage at the start of...",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Duelist's Pull",
+      "enchantmentEffect": "Once per short rest when you hit a creature with this weapon, you may pull the target 5 feet toward you if it is no more than one size larger than you.",
+      "enchantmentEffectBrief": "Once per short rest when you hit a creature with this weapon, you may pull the target 5 feet toward...",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Piercing Accuracy",
+      "enchantmentEffect": "Once per short rest before making an attack with this weapon, you may ignore half cover for that attack.",
+      "enchantmentEffectBrief": "Once per short rest before making an attack with this weapon, you may ignore half cover for that attack.",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Magebreak Nick",
+      "enchantmentEffect": "Once per long rest when you hit a creature concentrating on a spell, that creature has disadvantage on the saving throw it makes to maintain concentration from that damage.",
+      "enchantmentEffectBrief": "Once per long rest when you hit a creature concentrating on a spell, that creature has disadvantage...",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Echoing Strike",
+      "enchantmentEffect": "Once per turn when you hit with this weapon, you may cause the target to take 1 thunder damage if it willingly moves before the start of your next turn.",
+      "enchantmentEffectBrief": "Once per turn when you hit with this weapon, you may cause the target to take 1 thunder damage if it...",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Merciful Binding",
+      "enchantmentEffect": "When you reduce a creature to 0 hit points with this weapon, you may stabilize it immediately instead of killing it, and it cannot make opportunity attacks until the end of your next turn.",
+      "enchantmentEffectBrief": "When you reduce a creature to 0 hit points with this weapon, you may stabilize it immediately...",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Planar Nick",
+      "enchantmentEffect": "Once per short rest when you hit with this weapon, the attack counts as magical for the purpose of overcoming resistance and immunity, even if the base weapon would not otherwise do so.",
+      "enchantmentEffectBrief": "Once per short rest when you hit with this weapon, the attack counts as magical for the purpose of...",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Opening Cut",
+      "enchantmentEffect": "Once per combat, when you hit a creature that has not taken a turn yet, deal an additional 1d6 weapon damage.",
+      "enchantmentEffectBrief": "Once per combat, when you hit a creature that has not taken a turn yet, deal an additional 1d6...",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Giant's Tap",
+      "enchantmentEffect": "Once per short rest when you hit with this weapon, you may force the target to succeed on a Strength saving throw or be pushed 5 feet away from you.",
+      "enchantmentEffectBrief": "Once per short rest when you hit with this weapon, you may force the target to succeed on a Strength...",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Rune-Stitched Guard",
+      "enchantmentEffect": "Once per round when you take bludgeoning, piercing, or slashing damage, reduce that damage by 1.",
+      "enchantmentEffectBrief": "Once per round when you take bludgeoning, piercing, or slashing damage, reduce that damage by 1.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Warded Plating",
+      "enchantmentEffect": "Once per short rest when you are hit by an attack, reduce the damage by 1d6.",
+      "enchantmentEffectBrief": "Once per short rest when you are hit by an attack, reduce the damage by 1d6.",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Elemental Lining",
+      "enchantmentEffect": "Choose acid, cold, fire, lightning, or thunder when this enchantment is crafted. You have advantage on saving throws against environmental hazards of that type.",
+      "enchantmentEffectBrief": "Choose acid, cold, fire, lightning, or thunder when this enchantment is crafted.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Fleet Padding",
+      "enchantmentEffect": "Your walking speed increases by 5 feet while wearing this armor.",
+      "enchantmentEffectBrief": "Your walking speed increases by 5 feet while wearing this armor.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Stonesole",
+      "enchantmentEffect": "You have advantage on ability checks and saving throws made to resist being moved against your will.",
+      "enchantmentEffectBrief": "You have advantage on ability checks and saving throws made to resist being moved against your will.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Climber's Weave",
+      "enchantmentEffect": "You gain a climbing speed of 10 feet, or your existing climbing speed increases by 5 feet.",
+      "enchantmentEffectBrief": "You gain a climbing speed of 10 feet, or your existing climbing speed increases by 5 feet.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Shadow Padding",
+      "enchantmentEffect": "Once per short rest, you may gain advantage on one Dexterity (Stealth) check made while in dim light or darkness.",
+      "enchantmentEffectBrief": "Once per short rest, you may gain advantage on one Dexterity (Stealth) check made while in dim light...",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Guardian Thread",
+      "enchantmentEffect": "When an ally within 5 feet of you is hit by an attack, you may reduce the damage they take by 1d4. This property can be used once per short rest.",
+      "enchantmentEffectBrief": "When an ally within 5 feet of you is hit by an attack, you may reduce the damage they take by 1d4.",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Breath of the Deep",
+      "enchantmentEffect": "You can hold your breath for up to 1 hour while wearing this armor.",
+      "enchantmentEffectBrief": "You can hold your breath for up to 1 hour while wearing this armor.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Arcane Shockguard",
+      "enchantmentEffect": "Once per long rest when a creature hits you with a melee attack, you may deal 1d4 lightning damage to that creature.",
+      "enchantmentEffectBrief": "Once per long rest when a creature hits you with a melee attack, you may deal 1d4 lightning damage...",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Second Wind Stitching",
+      "enchantmentEffect": "Once per long rest when you roll initiative, gain temporary hit points equal to your proficiency bonus.",
+      "enchantmentEffectBrief": "Once per long rest when you roll initiative, gain temporary hit points equal to your proficiency bonus.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Bracing Fit",
+      "enchantmentEffect": "You gain a +1 bonus to Strength (Athletics) checks made to shove, grapple, climb, or swim.",
+      "enchantmentEffectBrief": "You gain a +1 bonus to Strength (Athletics) checks made to shove, grapple, climb, or swim.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Duelward",
+      "enchantmentEffect": "Once per short rest when only one hostile creature is within 5 feet of you, you may gain a +1 bonus to AC against that creature's next attack before the start of your next turn.",
+      "enchantmentEffectBrief": "Once per short rest when only one hostile creature is within 5 feet of you, you may gain a +1 bonus...",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Lightfall Harness",
+      "enchantmentEffect": "When you fall, reduce the effective falling distance by 20 feet.",
+      "enchantmentEffectBrief": "When you fall, reduce the effective falling distance by 20 feet.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Spellguard Seams",
+      "enchantmentEffect": "Once per long rest when you make a saving throw against a spell, add 1d4 to the roll.",
+      "enchantmentEffectBrief": "Once per long rest when you make a saving throw against a spell, add 1d4 to the roll.",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Lesser Spell Reservoir",
+      "enchantmentEffect": "The item can store one spell of 2nd level or lower chosen when the enchantment is crafted. Once cast, the stored spell cannot be cast again until the next dawn.",
+      "enchantmentEffectBrief": "The item can store one spell of 2nd level or lower chosen when the enchantment is crafted.",
+      "enchantmentAction": "Action",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Bright Rune",
+      "enchantmentEffect": "As a free activation, the item sheds bright light in a 20-foot radius and dim light for an additional 20 feet until dismissed.",
+      "enchantmentEffectBrief": "As a free activation, the item sheds bright light in a 20-foot radius and dim light for an...",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Shadow Rune",
+      "enchantmentEffect": "As an action once per long rest, the item dims nearby light, creating a 10-foot-radius area of lightly obscured shadow centered on you for 1 minute.",
+      "enchantmentEffectBrief": "As an action once per long rest, the item dims nearby light, creating a 10-foot-radius area of...",
+      "enchantmentAction": "Action",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Recall Sigil",
+      "enchantmentEffect": "As a bonus action, call the item to your hand from up to 30 feet away if it is unattended and has a clear path to you.",
+      "enchantmentEffectBrief": "As a bonus action, call the item to your hand from up to 30 feet away if it is unattended and has a...",
+      "enchantmentAction": "Bonus",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Alert Rune",
+      "enchantmentEffect": "You gain a +2 bonus to initiative rolls while the item is worn or held.",
+      "enchantmentEffectBrief": "You gain a +2 bonus to initiative rolls while the item is worn or held.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Truthmark",
+      "enchantmentEffect": "Once per short rest, gain advantage on one Wisdom (Insight) check while holding or wearing the item.",
+      "enchantmentEffectBrief": "Once per short rest, gain advantage on one Wisdom (Insight) check while holding or wearing the item.",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Glamour Finish",
+      "enchantmentEffect": "As an action, alter the item's visible color, ornamentation, and surface finish. This does not change its size, weight, or mechanical properties.",
+      "enchantmentEffectBrief": "As an action, alter the item's visible color, ornamentation, and surface finish.",
+      "enchantmentAction": "Action",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Lesser Warning",
+      "enchantmentEffect": "The item grows faintly warm when Aberrations, Celestials, Elementals, Fey, Fiends, or Undead are within 30 feet, though it does not reveal their location.",
+      "enchantmentEffectBrief": "The item grows faintly warm when Aberrations, Celestials, Elementals, Fey, Fiends, or Undead are...",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Far Speaker",
+      "enchantmentEffect": "Once per short rest as an action, send a whispered message of up to 25 words to a creature you can see within 120 feet.",
+      "enchantmentEffectBrief": "Once per short rest as an action, send a whispered message of up to 25 words to a creature you can...",
+      "enchantmentAction": "Action",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Lesser Luck",
+      "enchantmentEffect": "Once per long rest when you roll a 1 on an ability check or saving throw, you may reroll the die and must use the new result.",
+      "enchantmentEffectBrief": "Once per long rest when you roll a 1 on an ability check or saving throw, you may reroll the die and...",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Lesser Vitality Charm",
+      "enchantmentEffect": "When you finish a long rest while holding or wearing the item, gain temporary hit points equal to your proficiency bonus.",
+      "enchantmentEffectBrief": "When you finish a long rest while holding or wearing the item, gain temporary hit points equal to...",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Surehand Rune",
+      "enchantmentEffect": "You have advantage on ability checks made to avoid dropping the item, losing it, or having it forcibly removed from you.",
+      "enchantmentEffectBrief": "You have advantage on ability checks made to avoid dropping the item, losing it, or having it...",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Compass Rune",
+      "enchantmentEffect": "As a free activation, the item points toward a known location you have visited within the last 30 days, provided it is on the same plane of existence.",
+      "enchantmentEffectBrief": "As a free activation, the item points toward a known location you have visited within the last 30...",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Anchoring Mark",
+      "enchantmentEffect": "Once per long rest when you would be teleported unwillingly, you may add 1d4 to the saving throw made to resist the effect, if the effect allows a saving throw.",
+      "enchantmentEffectBrief": "Once per long rest when you would be teleported unwillingly, you may add 1d4 to the saving throw...",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Scholar's Imprint",
+      "enchantmentEffect": "Choose Arcana, History, Nature, or Religion when this enchantment is crafted. Once per short rest, add 1d4 to one check using that skill.",
+      "enchantmentEffectBrief": "Choose Arcana, History, Nature, or Religion when this enchantment is crafted.",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Either"
+    }
+  ],
+  "refinedSpells": [
+    {
+      "spellName": "Branding Smite",
+      "spellEffect": "A melee strike flares with radiant energy and can reveal an invisible target.",
+      "spellAction": "Bonus",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Magic Weapon",
+      "spellEffect": "Temporarily turns the weapon into a stronger magical weapon.",
+      "spellAction": "Bonus",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Shadow Blade",
+      "spellEffect": "Creates or empowers a melee weapon with shadowy psychic energy.",
+      "spellAction": "Bonus",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Flame Blade",
+      "spellEffect": "Creates or channels a melee blade of fire.",
+      "spellAction": "Bonus",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Spiritual Weapon",
+      "spellEffect": "Creates a spectral weapon that attacks near the wielder.",
+      "spellAction": "Bonus",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Blur",
+      "spellEffect": "Protects a melee combatant by making their form harder to target.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Haste",
+      "spellEffect": "Infuses the wielder with speed, defense, and supernatural combat momentum.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Elemental Weapon",
+      "spellEffect": "Empowers the weapon with elemental damage.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Crusader's Mantle",
+      "spellEffect": "Radiates martial power that empowers nearby allies' weapon attacks.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Spirit Shroud",
+      "spellEffect": "Surrounds the wielder with spirits that empower close-range weapon strikes.",
+      "spellAction": "Bonus",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Vampiric Touch",
+      "spellEffect": "Lets a melee weapon channel necrotic energy that steals vitality.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Blinding Smite",
+      "spellEffect": "Turns a melee strike into a flash of radiance that can blind the target.",
+      "spellAction": "Bonus",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Cordon of Arrows",
+      "spellEffect": "Turns ammunition into a magical perimeter trap.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Melf's Acid Arrow",
+      "spellEffect": "Converts a shot into a burning acid projectile.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Scorching Ray",
+      "spellEffect": "Lets a ranged weapon release multiple rays of fire.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Shatter",
+      "spellEffect": "Turns a fired shot into a concussive burst at the point of impact.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Web",
+      "spellEffect": "Causes a projectile to burst into restraining strands.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Spike Growth",
+      "spellEffect": "Creates hazardous terrain around where the ammunition lands.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Cloud of Daggers",
+      "spellEffect": "Creates a spinning blade hazard at the target point.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Lightning Arrow",
+      "spellEffect": "Transforms ammunition into a lightning-charged strike.",
+      "spellAction": "Bonus",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Flame Arrows",
+      "spellEffect": "Empowers ammunition with fire damage.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Conjure Barrage",
+      "spellEffect": "Multiplies a thrown weapon or piece of ammunition into a sweeping barrage.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Slow",
+      "spellEffect": "Allows a ranged weapon to unleash time-warping magic over an area.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Sleet Storm",
+      "spellEffect": "Creates a storm zone where a projectile lands, disrupting movement and concentration.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Dragon's Breath",
+      "spellEffect": "Allows the weapon or its wielder to release elemental breath-like energy.",
+      "spellAction": "Bonus",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Hold Person",
+      "spellEffect": "Lets the weapon bind a humanoid target with paralyzing magic.",
+      "spellAction": "Action",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Misty Step",
+      "spellEffect": "Allows the wielder to teleport into or out of weapon range.",
+      "spellAction": "Bonus",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Invisibility",
+      "spellEffect": "Allows the wielder to vanish before repositioning or attacking.",
+      "spellAction": "Action",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Mirror Image",
+      "spellEffect": "Creates illusory duplicates that protect a weapon wielder.",
+      "spellAction": "Action",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "See Invisibility",
+      "spellEffect": "Helps the wielder strike hidden or invisible targets.",
+      "spellAction": "Action",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Darkness",
+      "spellEffect": "Allows the weapon to create a field of magical darkness.",
+      "spellAction": "Action",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Silence",
+      "spellEffect": "Allows the weapon to create a zone that suppresses sound and spellcasting with verbal components.",
+      "spellAction": "Action",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Aid",
+      "spellEffect": "Empowers the wielder and allies with bolstered vitality.",
+      "spellAction": "Action",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Blink",
+      "spellEffect": "Causes the wielder to slip between planes during combat.",
+      "spellAction": "Action",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Fly",
+      "spellEffect": "Allows the wielder to fight from the air or reach distant targets.",
+      "spellAction": "Action",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Counterspell",
+      "spellEffect": "Lets the weapon disrupt enemy spellcasting.",
+      "spellAction": "Free",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Dispel Magic",
+      "spellEffect": "Lets the weapon suppress or unravel magical effects.",
+      "spellAction": "Action",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Fear",
+      "spellEffect": "Allows the weapon to unleash a terrifying presence.",
+      "spellAction": "Action",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Hypnotic Pattern",
+      "spellEffect": "Lets the weapon create a distracting magical display that can incapacitate creatures.",
+      "spellAction": "Action",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Protection from Energy",
+      "spellEffect": "Lets the weapon shield its wielder from a chosen elemental damage type.",
+      "spellAction": "Action",
+      "spellType": "Either"
+    }
+  ]
+}

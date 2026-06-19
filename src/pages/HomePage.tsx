@@ -3,6 +3,7 @@ import NavigationBar from '../components/NavigationBar';
 import worldsIcon from '../assets/icons/worlds_icon.png';
 import heroesIcon from '../assets/icons/heroes_icon.png';
 import campaignsIcon from '../assets/icons/campaigns_icon.png';
+import foundryIcon from '../assets/icons/foundry_icon.png';
 
 type HomeCard = {
   title: string;
@@ -25,6 +26,11 @@ const cards: HomeCard[] = [
     title: 'Campaigns',
     path: '/campaigns',
     image: campaignsIcon,
+  },
+  {
+    title: 'Foundry',
+    path: '/foundry',
+    image: foundryIcon,
   },
 ];
 

@@ -10,6 +10,7 @@ import './styles/home.css';
 import './styles/worlds.css';
 import './styles/heroes.css';
 import './styles/player.css';
+import './styles/foundry.css';
 import './styles/markdown.css';
 import './styles/responsive.css';
 

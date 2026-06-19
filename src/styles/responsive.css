@@ -7,6 +7,7 @@
   .worlds-shell,
   .heroes-shell,
   .player-shell,
+  .foundry-shell,
   .markdown-shell {
     padding-top: 142px;
   }
@@ -70,7 +71,10 @@
   }
 
   .player-facts,
-  .ability-grid {
+  .ability-grid,
+  .segmented-control,
+  .magic-fields,
+  .material-summary dl {
     grid-template-columns: 1fr;
   }
 

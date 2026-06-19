@@ -4,6 +4,7 @@ import WorldsPage from './pages/WorldsPage';
 import HeroesPage from './pages/HeroesPage';
 import PlayerPage from './pages/PlayerPage';
 import SectionPage from './pages/SectionPage';
+import FoundryPage from './pages/FoundryPage';
 import MarkdownPage from './pages/MarkdownPage';
 import NotFoundPage from './pages/NotFoundPage';
 
@@ -16,6 +17,7 @@ function App() {
       <Route path="/heroes" element={<HeroesPage />} />
       <Route path="/heroes/:heroSlug" element={<PlayerPage />} />
       <Route path="/campaigns" element={<SectionPage title="Campaigns" />} />
+      <Route path="/foundry" element={<FoundryPage />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );

@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react';
-import { Link, Navigate, useParams } from 'react-router-dom';
+import { Navigate, useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { X } from 'lucide-react';
+import ImageModal from '../components/ImageModal';
+import MarkdownSideNav from '../components/MarkdownSideNav';
 import NavigationBar from '../components/NavigationBar';
 import { markdownPageRecords } from '../data/sitePages';
 
@@ -103,7 +104,6 @@ function MarkdownPage() {
   const childPages = getChildPages(page.routePath);
   const childPanelTitle = getChildPanelTitle(childPages);
   const sectionHeadings = getSectionHeadings(page.markdown);
-  const hasSideNav = childPages.length > 0 || sectionHeadings.length > 0;
 
   return (
     <main className="app-shell markdown-shell">
@@ -145,56 +145,20 @@ function MarkdownPage() {
         </article>
 
         {isMapModalOpen && page.mapImageSrc && (
-          <div
-            className="image-modal"
-            role="dialog"
-            aria-modal="true"
-            aria-label={`${page.title} map preview`}
-            onClick={() => setIsMapModalOpen(false)}
-          >
-            <div className="image-modal-panel" onClick={(event) => event.stopPropagation()}>
-              <button
-                className="image-modal-close"
-                type="button"
-                aria-label="Close map preview"
-                onClick={() => setIsMapModalOpen(false)}
-              >
-                <X size={24} strokeWidth={2.2} aria-hidden="true" />
-              </button>
-              <img src={page.mapImageSrc} alt={`${page.title} map enlarged preview`} />
-            </div>
-          </div>
+          <ImageModal
+            alt={`${page.title} map enlarged preview`}
+            ariaLabel={`${page.title} map preview`}
+            src={page.mapImageSrc}
+            onClose={() => setIsMapModalOpen(false)}
+          />
         )}
 
-        {hasSideNav && (
-          <aside className="markdown-side-nav" aria-label={`${page.title} navigation`}>
-            {childPages.length > 0 && (
-              <section className="side-nav-panel" aria-label={`${page.title} child pages`}>
-                <h2>{childPanelTitle}</h2>
-                <nav>
-                  {childPages.map((childPage) => (
-                    <Link to={`/worlds/${childPage.routePath}`} key={childPage.routePath}>
-                      {childPage.title}
-                    </Link>
-                  ))}
-                </nav>
-              </section>
-            )}
-
-            {sectionHeadings.length > 0 && (
-              <section className="side-nav-panel" aria-label={`${page.title} sections`}>
-                <h2>On This Page</h2>
-                <nav>
-                  {sectionHeadings.map((heading) => (
-                    <a href={`#${heading.id}`} key={heading.id}>
-                      {heading.title}
-                    </a>
-                  ))}
-                </nav>
-              </section>
-            )}
-          </aside>
-        )}
+        <MarkdownSideNav
+          childPages={childPages}
+          childPanelTitle={childPanelTitle}
+          pageTitle={page.title}
+          sectionHeadings={sectionHeadings}
+        />
       </div>
     </main>
   );

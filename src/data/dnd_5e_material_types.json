@@ -1,0 +1,1450 @@
+{
+  "materialRarityTiers": {
+    "Common": {
+      "baseWeaponBonus": 0,
+      "baseArmorBonus": 0,
+      "baseEnchantmentSlots": 0,
+      "maximumEnchantmentSlots": 1,
+      "craftingTime": "4 hours",
+      "requiredCrafter": "Journeyman Blacksmith"
+    },
+    "Refined": {
+      "baseWeaponBonus": 1,
+      "baseArmorBonus": 1,
+      "baseEnchantmentSlots": 1,
+      "maximumEnchantmentSlots": 2,
+      "craftingTime": "8 hours",
+      "requiredCrafter": "Master Blacksmith"
+    },
+    "Superior": {
+      "baseWeaponBonus": 2,
+      "baseArmorBonus": 2,
+      "baseEnchantmentSlots": 2,
+      "maximumEnchantmentSlots": 3,
+      "craftingTime": "1 day",
+      "requiredCrafter": "Arcane Blacksmith"
+    },
+    "Mythic": {
+      "baseWeaponBonus": 3,
+      "baseArmorBonus": 3,
+      "baseEnchantmentSlots": 3,
+      "maximumEnchantmentSlots": 4,
+      "craftingTime": "7 days",
+      "requiredCrafter": "Legendary Blacksmith"
+    }
+  },
+  "materialRules": {
+    "metal": "Metals can be used for weapons and armor when appropriate.",
+    "wood": "Woods can be used for wooden weapons, staves, bows, shields, armor components, and other appropriate crafted items.",
+    "leatherHide": "Leather and hide materials can only be crafted into armor.",
+    "clothFabric": "Cloth and fabric materials can only be crafted into armor."
+  },
+  "materialTypes": [
+    {
+      "materialName": "Iron",
+      "materialCategory": "Metal",
+      "materialTier": "Common",
+      "baseWeaponBonus": 0,
+      "baseArmorBonus": 0,
+      "baseEnchantmentSlots": 0,
+      "maximumEnchantmentSlots": 1,
+      "craftingTime": "4 hours",
+      "requiredCrafter": "Journeyman Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Basic forged iron",
+      "weaponEffect": "No bonus",
+      "armorEffect": "No bonus",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Steel",
+      "materialCategory": "Metal",
+      "materialTier": "Common",
+      "baseWeaponBonus": 0,
+      "baseArmorBonus": 0,
+      "baseEnchantmentSlots": 0,
+      "maximumEnchantmentSlots": 1,
+      "craftingTime": "4 hours",
+      "requiredCrafter": "Journeyman Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Refined iron-carbon alloy",
+      "weaponEffect": "Additional 1d4 damage",
+      "armorEffect": "Reduces damage by 1d4",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Copper",
+      "materialCategory": "Metal",
+      "materialTier": "Common",
+      "baseWeaponBonus": 0,
+      "baseArmorBonus": 0,
+      "baseEnchantmentSlots": 0,
+      "maximumEnchantmentSlots": 1,
+      "craftingTime": "4 hours",
+      "requiredCrafter": "Journeyman Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Soft conductive metal",
+      "weaponEffect": "Up to level 1 spell",
+      "armorEffect": "15 feet of dim light",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Bronze",
+      "materialCategory": "Metal",
+      "materialTier": "Common",
+      "baseWeaponBonus": 0,
+      "baseArmorBonus": 0,
+      "baseEnchantmentSlots": 0,
+      "maximumEnchantmentSlots": 1,
+      "craftingTime": "4 hours",
+      "requiredCrafter": "Journeyman Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Copper-tin alloy",
+      "weaponEffect": "+1 enchantment slots",
+      "armorEffect": "+1 enchantment slots",
+      "addsEnchantmentSlot": true
+    },
+    {
+      "materialName": "Tin",
+      "materialCategory": "Metal",
+      "materialTier": "Common",
+      "baseWeaponBonus": 0,
+      "baseArmorBonus": 0,
+      "baseEnchantmentSlots": 0,
+      "maximumEnchantmentSlots": 1,
+      "craftingTime": "4 hours",
+      "requiredCrafter": "Journeyman Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Light alloy metal",
+      "weaponEffect": "Proficiency in offhand",
+      "armorEffect": "+2 on initiative rolls",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Cold Iron",
+      "materialCategory": "Metal",
+      "materialTier": "Refined",
+      "baseWeaponBonus": 1,
+      "baseArmorBonus": 1,
+      "baseEnchantmentSlots": 1,
+      "maximumEnchantmentSlots": 2,
+      "craftingTime": "8 hours",
+      "requiredCrafter": "Master Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Forged without heat",
+      "weaponEffect": "Additional crit die",
+      "armorEffect": "Crit resistant",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Blacksteel",
+      "materialCategory": "Metal",
+      "materialTier": "Refined",
+      "baseWeaponBonus": 1,
+      "baseArmorBonus": 1,
+      "baseEnchantmentSlots": 1,
+      "maximumEnchantmentSlots": 2,
+      "craftingTime": "8 hours",
+      "requiredCrafter": "Master Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Dark carbon steel",
+      "weaponEffect": "+1 enchantment slots",
+      "armorEffect": "+1 enchantment slots",
+      "addsEnchantmentSlot": true
+    },
+    {
+      "materialName": "Brightsteel",
+      "materialCategory": "Metal",
+      "materialTier": "Refined",
+      "baseWeaponBonus": 1,
+      "baseArmorBonus": 1,
+      "baseEnchantmentSlots": 1,
+      "maximumEnchantmentSlots": 2,
+      "craftingTime": "8 hours",
+      "requiredCrafter": "Master Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Polished high-purity steel",
+      "weaponEffect": "Up to level 4 spell",
+      "armorEffect": "30 feet of light",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Silver",
+      "materialCategory": "Metal",
+      "materialTier": "Refined",
+      "baseWeaponBonus": 1,
+      "baseArmorBonus": 1,
+      "baseEnchantmentSlots": 1,
+      "maximumEnchantmentSlots": 2,
+      "craftingTime": "8 hours",
+      "requiredCrafter": "Master Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Hardened silver alloy",
+      "weaponEffect": "Counted as silvered",
+      "armorEffect": "Improved charisma checks",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Skyiron",
+      "materialCategory": "Metal",
+      "materialTier": "Refined",
+      "baseWeaponBonus": 1,
+      "baseArmorBonus": 1,
+      "baseEnchantmentSlots": 1,
+      "maximumEnchantmentSlots": 2,
+      "craftingTime": "8 hours",
+      "requiredCrafter": "Master Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Lightweight steel alloy",
+      "weaponEffect": "Proficiency in offhand",
+      "armorEffect": "Advantage on initiative",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Mithral",
+      "materialCategory": "Metal",
+      "materialTier": "Superior",
+      "baseWeaponBonus": 2,
+      "baseArmorBonus": 2,
+      "baseEnchantmentSlots": 2,
+      "maximumEnchantmentSlots": 3,
+      "craftingTime": "1 day",
+      "requiredCrafter": "Arcane Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Silvery light metal",
+      "weaponEffect": "+1 enchantment slots",
+      "armorEffect": "+1 enchantment slots",
+      "addsEnchantmentSlot": true
+    },
+    {
+      "materialName": "Adamantine",
+      "materialCategory": "Metal",
+      "materialTier": "Superior",
+      "baseWeaponBonus": 2,
+      "baseArmorBonus": 2,
+      "baseEnchantmentSlots": 2,
+      "maximumEnchantmentSlots": 3,
+      "craftingTime": "1 day",
+      "requiredCrafter": "Arcane Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Near-indestructible",
+      "weaponEffect": "Double crit dice",
+      "armorEffect": "Crit immune",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Darksteel",
+      "materialCategory": "Metal",
+      "materialTier": "Superior",
+      "baseWeaponBonus": 2,
+      "baseArmorBonus": 2,
+      "baseEnchantmentSlots": 2,
+      "maximumEnchantmentSlots": 3,
+      "craftingTime": "1 day",
+      "requiredCrafter": "Arcane Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Dense black alloy",
+      "weaponEffect": "Additional 1d6 damage",
+      "armorEffect": "Reduces damage by 1d6",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Cobalt",
+      "materialCategory": "Metal",
+      "materialTier": "Superior",
+      "baseWeaponBonus": 2,
+      "baseArmorBonus": 2,
+      "baseEnchantmentSlots": 2,
+      "maximumEnchantmentSlots": 3,
+      "craftingTime": "1 day",
+      "requiredCrafter": "Arcane Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Magical-conductive alloy",
+      "weaponEffect": "Up to level 7 spell",
+      "armorEffect": "Improved spell save",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Obsidian",
+      "materialCategory": "Metal",
+      "materialTier": "Superior",
+      "baseWeaponBonus": 2,
+      "baseArmorBonus": 2,
+      "baseEnchantmentSlots": 2,
+      "maximumEnchantmentSlots": 3,
+      "craftingTime": "1 day",
+      "requiredCrafter": "Arcane Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Devoid of magic",
+      "weaponEffect": "Absorb magic effects",
+      "armorEffect": "Absorb magic effects",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Meteorite",
+      "materialCategory": "Metal",
+      "materialTier": "Mythic",
+      "baseWeaponBonus": 3,
+      "baseArmorBonus": 3,
+      "baseEnchantmentSlots": 3,
+      "maximumEnchantmentSlots": 4,
+      "craftingTime": "7 days",
+      "requiredCrafter": "Legendary Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Fallen celestial ore",
+      "weaponEffect": "+1 enchantment slots",
+      "armorEffect": "+1 enchantment slots",
+      "addsEnchantmentSlot": true
+    },
+    {
+      "materialName": "Voidsteel",
+      "materialCategory": "Metal",
+      "materialTier": "Mythic",
+      "baseWeaponBonus": 3,
+      "baseArmorBonus": 3,
+      "baseEnchantmentSlots": 3,
+      "maximumEnchantmentSlots": 4,
+      "craftingTime": "7 days",
+      "requiredCrafter": "Legendary Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Alloyed with Far Realm magic",
+      "weaponEffect": "Increased crit chance",
+      "armorEffect": "Temporary hit points",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Aetherium",
+      "materialCategory": "Metal",
+      "materialTier": "Mythic",
+      "baseWeaponBonus": 3,
+      "baseArmorBonus": 3,
+      "baseEnchantmentSlots": 3,
+      "maximumEnchantmentSlots": 4,
+      "craftingTime": "7 days",
+      "requiredCrafter": "Legendary Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Pure arcane metal",
+      "weaponEffect": "Up to level 9 spell",
+      "armorEffect": "Improved spell save",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Chronium",
+      "materialCategory": "Metal",
+      "materialTier": "Mythic",
+      "baseWeaponBonus": 3,
+      "baseArmorBonus": 3,
+      "baseEnchantmentSlots": 3,
+      "maximumEnchantmentSlots": 4,
+      "craftingTime": "7 days",
+      "requiredCrafter": "Legendary Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Time-infused ore",
+      "weaponEffect": "Guaranteed hit/crit",
+      "armorEffect": "Guaranteed miss/save",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Oak",
+      "materialCategory": "Wood",
+      "materialTier": "Common",
+      "baseWeaponBonus": 0,
+      "baseArmorBonus": 0,
+      "baseEnchantmentSlots": 0,
+      "maximumEnchantmentSlots": 1,
+      "craftingTime": "4 hours",
+      "requiredCrafter": "Journeyman Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Dense and sturdy",
+      "weaponEffect": "No bonus",
+      "armorEffect": "No bonus",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Ash",
+      "materialCategory": "Wood",
+      "materialTier": "Common",
+      "baseWeaponBonus": 0,
+      "baseArmorBonus": 0,
+      "baseEnchantmentSlots": 0,
+      "maximumEnchantmentSlots": 1,
+      "craftingTime": "4 hours",
+      "requiredCrafter": "Journeyman Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Flexible",
+      "weaponEffect": "Additional 1d4 damage",
+      "armorEffect": "Reduces damage by 1d4",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Pine",
+      "materialCategory": "Wood",
+      "materialTier": "Common",
+      "baseWeaponBonus": 0,
+      "baseArmorBonus": 0,
+      "baseEnchantmentSlots": 0,
+      "maximumEnchantmentSlots": 1,
+      "craftingTime": "4 hours",
+      "requiredCrafter": "Journeyman Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Light and soft",
+      "weaponEffect": "Proficiency in offhand",
+      "armorEffect": "+2 on initiative rolls",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Birch",
+      "materialCategory": "Wood",
+      "materialTier": "Common",
+      "baseWeaponBonus": 0,
+      "baseArmorBonus": 0,
+      "baseEnchantmentSlots": 0,
+      "maximumEnchantmentSlots": 1,
+      "craftingTime": "4 hours",
+      "requiredCrafter": "Journeyman Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Smooth grain",
+      "weaponEffect": "Up to level 1 spell",
+      "armorEffect": "+1 athletics and acrobatics",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Cedar",
+      "materialCategory": "Wood",
+      "materialTier": "Common",
+      "baseWeaponBonus": 0,
+      "baseArmorBonus": 0,
+      "baseEnchantmentSlots": 0,
+      "maximumEnchantmentSlots": 1,
+      "craftingTime": "4 hours",
+      "requiredCrafter": "Journeyman Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Aromatic, rot-resistant",
+      "weaponEffect": "+1 enchantment slots",
+      "armorEffect": "+1 enchantment slots",
+      "addsEnchantmentSlot": true
+    },
+    {
+      "materialName": "Ironwood",
+      "materialCategory": "Wood",
+      "materialTier": "Refined",
+      "baseWeaponBonus": 1,
+      "baseArmorBonus": 1,
+      "baseEnchantmentSlots": 1,
+      "maximumEnchantmentSlots": 2,
+      "craftingTime": "8 hours",
+      "requiredCrafter": "Master Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Naturally hard as steel",
+      "weaponEffect": "Additional crit die",
+      "armorEffect": "Crit resistant",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Darkwood",
+      "materialCategory": "Wood",
+      "materialTier": "Refined",
+      "baseWeaponBonus": 1,
+      "baseArmorBonus": 1,
+      "baseEnchantmentSlots": 1,
+      "maximumEnchantmentSlots": 2,
+      "craftingTime": "8 hours",
+      "requiredCrafter": "Master Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Shadow-grown timber",
+      "weaponEffect": "Up to level 4 spell",
+      "armorEffect": "30 feet of non-magic darkness",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Whiteshade",
+      "materialCategory": "Wood",
+      "materialTier": "Refined",
+      "baseWeaponBonus": 1,
+      "baseArmorBonus": 1,
+      "baseEnchantmentSlots": 1,
+      "maximumEnchantmentSlots": 2,
+      "craftingTime": "8 hours",
+      "requiredCrafter": "Master Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Pale luminous wood",
+      "weaponEffect": "+1 enchantment slots",
+      "armorEffect": "+1 enchantment slots",
+      "addsEnchantmentSlot": true
+    },
+    {
+      "materialName": "Stormbark",
+      "materialCategory": "Wood",
+      "materialTier": "Refined",
+      "baseWeaponBonus": 1,
+      "baseArmorBonus": 1,
+      "baseEnchantmentSlots": 1,
+      "maximumEnchantmentSlots": 2,
+      "craftingTime": "8 hours",
+      "requiredCrafter": "Master Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Lightning-scorched tree",
+      "weaponEffect": "Improved lightning spells",
+      "armorEffect": "Increased movement speed",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Frostwood",
+      "materialCategory": "Wood",
+      "materialTier": "Refined",
+      "baseWeaponBonus": 1,
+      "baseArmorBonus": 1,
+      "baseEnchantmentSlots": 1,
+      "maximumEnchantmentSlots": 2,
+      "craftingTime": "8 hours",
+      "requiredCrafter": "Master Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Grown in permafrost",
+      "weaponEffect": "Improved frost spells",
+      "armorEffect": "Create difficult terrain",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Mithwood",
+      "materialCategory": "Wood",
+      "materialTier": "Superior",
+      "baseWeaponBonus": 2,
+      "baseArmorBonus": 2,
+      "baseEnchantmentSlots": 2,
+      "maximumEnchantmentSlots": 3,
+      "craftingTime": "1 day",
+      "requiredCrafter": "Arcane Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Mithril-infused fibers",
+      "weaponEffect": "+1 enchantment slots",
+      "armorEffect": "+1 enchantment slots",
+      "addsEnchantmentSlot": true
+    },
+    {
+      "materialName": "Heartwood",
+      "materialCategory": "Wood",
+      "materialTier": "Superior",
+      "baseWeaponBonus": 2,
+      "baseArmorBonus": 2,
+      "baseEnchantmentSlots": 2,
+      "maximumEnchantmentSlots": 3,
+      "craftingTime": "1 day",
+      "requiredCrafter": "Arcane Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Core of an ancient tree",
+      "weaponEffect": "Up to level 7 spell",
+      "armorEffect": "Improved spell save",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Shadowbloom",
+      "materialCategory": "Wood",
+      "materialTier": "Superior",
+      "baseWeaponBonus": 2,
+      "baseArmorBonus": 2,
+      "baseEnchantmentSlots": 2,
+      "maximumEnchantmentSlots": 3,
+      "craftingTime": "1 day",
+      "requiredCrafter": "Arcane Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Fey-shadow hybrid",
+      "weaponEffect": "Additional 1d6 damage",
+      "armorEffect": "Reduces damage by 1d6",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Sunbloom",
+      "materialCategory": "Wood",
+      "materialTier": "Superior",
+      "baseWeaponBonus": 2,
+      "baseArmorBonus": 2,
+      "baseEnchantmentSlots": 2,
+      "maximumEnchantmentSlots": 3,
+      "craftingTime": "1 day",
+      "requiredCrafter": "Arcane Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Fey-sun hybrid",
+      "weaponEffect": "AOE attack",
+      "armorEffect": "AOE attack",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Moonbloom",
+      "materialCategory": "Wood",
+      "materialTier": "Superior",
+      "baseWeaponBonus": 2,
+      "baseArmorBonus": 2,
+      "baseEnchantmentSlots": 2,
+      "maximumEnchantmentSlots": 3,
+      "craftingTime": "1 day",
+      "requiredCrafter": "Arcane Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Fey-moon hybrid",
+      "weaponEffect": "Self healing",
+      "armorEffect": "Self healing",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Worldroot",
+      "materialCategory": "Wood",
+      "materialTier": "Mythic",
+      "baseWeaponBonus": 3,
+      "baseArmorBonus": 3,
+      "baseEnchantmentSlots": 3,
+      "maximumEnchantmentSlots": 4,
+      "craftingTime": "7 days",
+      "requiredCrafter": "Legendary Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "World Tree offshoot",
+      "weaponEffect": "+1 enchantment slots",
+      "armorEffect": "+1 enchantment slots",
+      "addsEnchantmentSlot": true
+    },
+    {
+      "materialName": "Voidroot",
+      "materialCategory": "Wood",
+      "materialTier": "Mythic",
+      "baseWeaponBonus": 3,
+      "baseArmorBonus": 3,
+      "baseEnchantmentSlots": 3,
+      "maximumEnchantmentSlots": 4,
+      "craftingTime": "7 days",
+      "requiredCrafter": "Legendary Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Wood fused with Far Realm magic",
+      "weaponEffect": "Increased crit chance",
+      "armorEffect": "Temporary hit points",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Aetherwood",
+      "materialCategory": "Wood",
+      "materialTier": "Mythic",
+      "baseWeaponBonus": 3,
+      "baseArmorBonus": 3,
+      "baseEnchantmentSlots": 3,
+      "maximumEnchantmentSlots": 4,
+      "craftingTime": "7 days",
+      "requiredCrafter": "Legendary Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Solidified magic",
+      "weaponEffect": "Up to level 9 spell",
+      "armorEffect": "Improved spell save",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Dreamwood",
+      "materialCategory": "Wood",
+      "materialTier": "Mythic",
+      "baseWeaponBonus": 3,
+      "baseArmorBonus": 3,
+      "baseEnchantmentSlots": 3,
+      "maximumEnchantmentSlots": 4,
+      "craftingTime": "7 days",
+      "requiredCrafter": "Legendary Blacksmith",
+      "validItemTypes": [
+        "Weapon",
+        "Armor"
+      ],
+      "description": "Grown in dream realms",
+      "weaponEffect": "Increased spell save DC",
+      "armorEffect": "Guaranteed miss/save",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Cowhide",
+      "materialCategory": "Leather/Hide",
+      "materialTier": "Common",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 0,
+      "baseEnchantmentSlots": 0,
+      "maximumEnchantmentSlots": 1,
+      "craftingTime": "4 hours",
+      "requiredCrafter": "Journeyman Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Cattle",
+      "weaponEffect": null,
+      "armorEffect": "No bonus",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Deerskin",
+      "materialCategory": "Leather/Hide",
+      "materialTier": "Common",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 0,
+      "baseEnchantmentSlots": 0,
+      "maximumEnchantmentSlots": 1,
+      "craftingTime": "4 hours",
+      "requiredCrafter": "Journeyman Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Deer",
+      "weaponEffect": null,
+      "armorEffect": "+2 on initiative rolls",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Boarhide",
+      "materialCategory": "Leather/Hide",
+      "materialTier": "Common",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 0,
+      "baseEnchantmentSlots": 0,
+      "maximumEnchantmentSlots": 1,
+      "craftingTime": "4 hours",
+      "requiredCrafter": "Journeyman Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Boar",
+      "weaponEffect": null,
+      "armorEffect": "Reduces damage by 1d4",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Wolfhide",
+      "materialCategory": "Leather/Hide",
+      "materialTier": "Common",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 0,
+      "baseEnchantmentSlots": 0,
+      "maximumEnchantmentSlots": 1,
+      "craftingTime": "4 hours",
+      "requiredCrafter": "Journeyman Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Wolf",
+      "weaponEffect": null,
+      "armorEffect": "+1 athletics and acrobatics",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Goat Leather",
+      "materialCategory": "Leather/Hide",
+      "materialTier": "Common",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 0,
+      "baseEnchantmentSlots": 0,
+      "maximumEnchantmentSlots": 1,
+      "craftingTime": "4 hours",
+      "requiredCrafter": "Journeyman Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Goat",
+      "weaponEffect": null,
+      "armorEffect": "+1 enchantment slots",
+      "addsEnchantmentSlot": true
+    },
+    {
+      "materialName": "Basilisk Hide",
+      "materialCategory": "Leather/Hide",
+      "materialTier": "Refined",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 1,
+      "baseEnchantmentSlots": 1,
+      "maximumEnchantmentSlots": 2,
+      "craftingTime": "8 hours",
+      "requiredCrafter": "Master Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Basilisk",
+      "weaponEffect": null,
+      "armorEffect": "+1 enchantment slots",
+      "addsEnchantmentSlot": true
+    },
+    {
+      "materialName": "Shadow Panther Hide",
+      "materialCategory": "Leather/Hide",
+      "materialTier": "Refined",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 1,
+      "baseEnchantmentSlots": 1,
+      "maximumEnchantmentSlots": 2,
+      "craftingTime": "8 hours",
+      "requiredCrafter": "Master Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Shadow panther",
+      "weaponEffect": null,
+      "armorEffect": "30 feet of non-magic darkness",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Drake Hide",
+      "materialCategory": "Leather/Hide",
+      "materialTier": "Refined",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 1,
+      "baseEnchantmentSlots": 1,
+      "maximumEnchantmentSlots": 2,
+      "craftingTime": "8 hours",
+      "requiredCrafter": "Master Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Drake",
+      "weaponEffect": null,
+      "armorEffect": "Crit resistant",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Frost Lizard Hide",
+      "materialCategory": "Leather/Hide",
+      "materialTier": "Refined",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 1,
+      "baseEnchantmentSlots": 1,
+      "maximumEnchantmentSlots": 2,
+      "craftingTime": "8 hours",
+      "requiredCrafter": "Master Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Frost lizard",
+      "weaponEffect": null,
+      "armorEffect": "Create difficult terrain",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Storm Serpent Skin",
+      "materialCategory": "Leather/Hide",
+      "materialTier": "Refined",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 1,
+      "baseEnchantmentSlots": 1,
+      "maximumEnchantmentSlots": 2,
+      "craftingTime": "8 hours",
+      "requiredCrafter": "Master Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Storm serpent",
+      "weaponEffect": null,
+      "armorEffect": "Increased movement speed",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Wyvern Hide",
+      "materialCategory": "Leather/Hide",
+      "materialTier": "Superior",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 2,
+      "baseEnchantmentSlots": 2,
+      "maximumEnchantmentSlots": 3,
+      "craftingTime": "1 day",
+      "requiredCrafter": "Arcane Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Wyvern",
+      "weaponEffect": null,
+      "armorEffect": "Resistance to associated damage type",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Displacer Beast Hide",
+      "materialCategory": "Leather/Hide",
+      "materialTier": "Superior",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 2,
+      "baseEnchantmentSlots": 2,
+      "maximumEnchantmentSlots": 3,
+      "craftingTime": "1 day",
+      "requiredCrafter": "Arcane Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Displacer beast",
+      "weaponEffect": null,
+      "armorEffect": "Disadvantage on attacks against you",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Phase Spider Silk Hide",
+      "materialCategory": "Leather/Hide",
+      "materialTier": "Superior",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 2,
+      "baseEnchantmentSlots": 2,
+      "maximumEnchantmentSlots": 3,
+      "craftingTime": "1 day",
+      "requiredCrafter": "Arcane Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Phase spider",
+      "weaponEffect": null,
+      "armorEffect": "+1 enchantment slots",
+      "addsEnchantmentSlot": true
+    },
+    {
+      "materialName": "Manticore Hide",
+      "materialCategory": "Leather/Hide",
+      "materialTier": "Superior",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 2,
+      "baseEnchantmentSlots": 2,
+      "maximumEnchantmentSlots": 3,
+      "craftingTime": "1 day",
+      "requiredCrafter": "Arcane Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Manticore",
+      "weaponEffect": null,
+      "armorEffect": "Reduces damage by 1d6",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Dire Bear Hide",
+      "materialCategory": "Leather/Hide",
+      "materialTier": "Superior",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 2,
+      "baseEnchantmentSlots": 2,
+      "maximumEnchantmentSlots": 3,
+      "craftingTime": "1 day",
+      "requiredCrafter": "Arcane Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Dire Bear",
+      "weaponEffect": null,
+      "armorEffect": "Crit immune",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Dragonhide",
+      "materialCategory": "Leather/Hide",
+      "materialTier": "Mythic",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 3,
+      "baseEnchantmentSlots": 3,
+      "maximumEnchantmentSlots": 4,
+      "craftingTime": "7 days",
+      "requiredCrafter": "Legendary Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Dragon",
+      "weaponEffect": null,
+      "armorEffect": "Immunity from associated damage type",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Kraken Hide",
+      "materialCategory": "Leather/Hide",
+      "materialTier": "Mythic",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 3,
+      "baseEnchantmentSlots": 3,
+      "maximumEnchantmentSlots": 4,
+      "craftingTime": "7 days",
+      "requiredCrafter": "Legendary Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Kraken",
+      "weaponEffect": null,
+      "armorEffect": "Improved spell save",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Void Hide",
+      "materialCategory": "Leather/Hide",
+      "materialTier": "Mythic",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 3,
+      "baseEnchantmentSlots": 3,
+      "maximumEnchantmentSlots": 4,
+      "craftingTime": "7 days",
+      "requiredCrafter": "Legendary Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Far Realms Creatures",
+      "weaponEffect": null,
+      "armorEffect": "Temporary hit points",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Starspawn Hide",
+      "materialCategory": "Leather/Hide",
+      "materialTier": "Mythic",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 3,
+      "baseEnchantmentSlots": 3,
+      "maximumEnchantmentSlots": 4,
+      "craftingTime": "7 days",
+      "requiredCrafter": "Legendary Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Space Creatures",
+      "weaponEffect": null,
+      "armorEffect": "+1 enchantment slots",
+      "addsEnchantmentSlot": true
+    },
+    {
+      "materialName": "Linen",
+      "materialCategory": "Cloth/Fabric",
+      "materialTier": "Common",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 0,
+      "baseEnchantmentSlots": 0,
+      "maximumEnchantmentSlots": 1,
+      "craftingTime": "4 hours",
+      "requiredCrafter": "Journeyman Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Flax",
+      "weaponEffect": null,
+      "armorEffect": "No bonus",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Wool",
+      "materialCategory": "Cloth/Fabric",
+      "materialTier": "Common",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 0,
+      "baseEnchantmentSlots": 0,
+      "maximumEnchantmentSlots": 1,
+      "craftingTime": "4 hours",
+      "requiredCrafter": "Journeyman Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Sheep",
+      "weaponEffect": null,
+      "armorEffect": "+1 athletics and acrobatics",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Cotton",
+      "materialCategory": "Cloth/Fabric",
+      "materialTier": "Common",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 0,
+      "baseEnchantmentSlots": 0,
+      "maximumEnchantmentSlots": 1,
+      "craftingTime": "4 hours",
+      "requiredCrafter": "Journeyman Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Cotton plant",
+      "weaponEffect": null,
+      "armorEffect": "+2 on initiative rolls",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Hempcloth",
+      "materialCategory": "Cloth/Fabric",
+      "materialTier": "Common",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 0,
+      "baseEnchantmentSlots": 0,
+      "maximumEnchantmentSlots": 1,
+      "craftingTime": "4 hours",
+      "requiredCrafter": "Journeyman Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Hemp",
+      "weaponEffect": null,
+      "armorEffect": "+1 persuasion",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Silk",
+      "materialCategory": "Cloth/Fabric",
+      "materialTier": "Common",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 0,
+      "baseEnchantmentSlots": 0,
+      "maximumEnchantmentSlots": 1,
+      "craftingTime": "4 hours",
+      "requiredCrafter": "Journeyman Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Silkworm",
+      "weaponEffect": null,
+      "armorEffect": "+1 enchantment slots",
+      "addsEnchantmentSlot": true
+    },
+    {
+      "materialName": "Mageweave",
+      "materialCategory": "Cloth/Fabric",
+      "materialTier": "Refined",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 1,
+      "baseEnchantmentSlots": 1,
+      "maximumEnchantmentSlots": 2,
+      "craftingTime": "8 hours",
+      "requiredCrafter": "Master Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Arcane silk",
+      "weaponEffect": null,
+      "armorEffect": "+1 enchantment slots",
+      "addsEnchantmentSlot": true
+    },
+    {
+      "materialName": "Shadow Silk",
+      "materialCategory": "Cloth/Fabric",
+      "materialTier": "Refined",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 1,
+      "baseEnchantmentSlots": 1,
+      "maximumEnchantmentSlots": 2,
+      "craftingTime": "8 hours",
+      "requiredCrafter": "Master Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Shadow spiders",
+      "weaponEffect": null,
+      "armorEffect": "30 feet of non-magic darkness",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Sunweave",
+      "materialCategory": "Cloth/Fabric",
+      "materialTier": "Refined",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 1,
+      "baseEnchantmentSlots": 1,
+      "maximumEnchantmentSlots": 2,
+      "craftingTime": "8 hours",
+      "requiredCrafter": "Master Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Radiant silk",
+      "weaponEffect": null,
+      "armorEffect": "Self healing",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Frostweave",
+      "materialCategory": "Cloth/Fabric",
+      "materialTier": "Refined",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 1,
+      "baseEnchantmentSlots": 1,
+      "maximumEnchantmentSlots": 2,
+      "craftingTime": "8 hours",
+      "requiredCrafter": "Master Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Ice moth silk",
+      "weaponEffect": null,
+      "armorEffect": "Create difficult terrain",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Stormweave",
+      "materialCategory": "Cloth/Fabric",
+      "materialTier": "Refined",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 1,
+      "baseEnchantmentSlots": 1,
+      "maximumEnchantmentSlots": 2,
+      "craftingTime": "8 hours",
+      "requiredCrafter": "Master Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Storm moth silk",
+      "weaponEffect": null,
+      "armorEffect": "Increased movement speed",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Astral Silk",
+      "materialCategory": "Cloth/Fabric",
+      "materialTier": "Superior",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 2,
+      "baseEnchantmentSlots": 2,
+      "maximumEnchantmentSlots": 3,
+      "craftingTime": "1 day",
+      "requiredCrafter": "Arcane Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Astral Spiders",
+      "weaponEffect": null,
+      "armorEffect": "Crit immune",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Dreamweave",
+      "materialCategory": "Cloth/Fabric",
+      "materialTier": "Superior",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 2,
+      "baseEnchantmentSlots": 2,
+      "maximumEnchantmentSlots": 3,
+      "craftingTime": "1 day",
+      "requiredCrafter": "Arcane Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Dream moths",
+      "weaponEffect": null,
+      "armorEffect": "Disadvantage on attacks against you",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Phase Cloth",
+      "materialCategory": "Cloth/Fabric",
+      "materialTier": "Superior",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 2,
+      "baseEnchantmentSlots": 2,
+      "maximumEnchantmentSlots": 3,
+      "craftingTime": "1 day",
+      "requiredCrafter": "Arcane Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Phase spiders",
+      "weaponEffect": null,
+      "armorEffect": "+1 enchantment slots",
+      "addsEnchantmentSlot": true
+    },
+    {
+      "materialName": "Windcloth",
+      "materialCategory": "Cloth/Fabric",
+      "materialTier": "Superior",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 2,
+      "baseEnchantmentSlots": 2,
+      "maximumEnchantmentSlots": 3,
+      "craftingTime": "1 day",
+      "requiredCrafter": "Arcane Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Sky silkworm",
+      "weaponEffect": null,
+      "armorEffect": "Immune to opportunity attacks",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Void Velvet",
+      "materialCategory": "Cloth/Fabric",
+      "materialTier": "Superior",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 2,
+      "baseEnchantmentSlots": 2,
+      "maximumEnchantmentSlots": 3,
+      "craftingTime": "1 day",
+      "requiredCrafter": "Arcane Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Void worms",
+      "weaponEffect": null,
+      "armorEffect": "Temporary hit points",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Phoenixweave",
+      "materialCategory": "Cloth/Fabric",
+      "materialTier": "Mythic",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 3,
+      "baseEnchantmentSlots": 3,
+      "maximumEnchantmentSlots": 4,
+      "craftingTime": "7 days",
+      "requiredCrafter": "Legendary Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Phoenix feathers",
+      "weaponEffect": null,
+      "armorEffect": "Revive at 50% hit points",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Starweave",
+      "materialCategory": "Cloth/Fabric",
+      "materialTier": "Mythic",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 3,
+      "baseEnchantmentSlots": 3,
+      "maximumEnchantmentSlots": 4,
+      "craftingTime": "7 days",
+      "requiredCrafter": "Legendary Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Star moth silk",
+      "weaponEffect": null,
+      "armorEffect": "+1 enchantment slots",
+      "addsEnchantmentSlot": true
+    },
+    {
+      "materialName": "Chronoclith",
+      "materialCategory": "Cloth/Fabric",
+      "materialTier": "Mythic",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 3,
+      "baseEnchantmentSlots": 3,
+      "maximumEnchantmentSlots": 4,
+      "craftingTime": "7 days",
+      "requiredCrafter": "Legendary Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Time moth silk",
+      "weaponEffect": null,
+      "armorEffect": "Guaranteed miss/save",
+      "addsEnchantmentSlot": false
+    },
+    {
+      "materialName": "Aetherlace",
+      "materialCategory": "Cloth/Fabric",
+      "materialTier": "Mythic",
+      "baseWeaponBonus": null,
+      "baseArmorBonus": 3,
+      "baseEnchantmentSlots": 3,
+      "maximumEnchantmentSlots": 4,
+      "craftingTime": "7 days",
+      "requiredCrafter": "Legendary Blacksmith",
+      "validItemTypes": [
+        "Armor"
+      ],
+      "source": "Raw magic fiber",
+      "weaponEffect": null,
+      "armorEffect": "Improved spell save",
+      "addsEnchantmentSlot": false
+    }
+  ]
+}

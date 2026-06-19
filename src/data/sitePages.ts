@@ -73,6 +73,11 @@ export const searchablePages: SearchPage[] = [
     path: '/campaigns',
     category: 'Campaigns',
   },
+  {
+    title: 'Foundry',
+    path: '/foundry',
+    category: 'Foundry',
+  },
   ...players.map((player) => ({
     title: player.name,
     path: `/heroes/${player.slug}`,

@@ -1,0 +1,660 @@
+{
+  "commonEnchantments": [
+    {
+      "enchantmentName": "Keen Edge",
+      "enchantmentEffect": "Once per turn, deal an additional 1 damage on a hit.",
+      "enchantmentEffectBrief": "Once per turn, deal an additional 1 damage on a hit.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Emberkiss",
+      "enchantmentEffect": "Weapon deals an additional 1 fire damage.",
+      "enchantmentEffectBrief": "Weapon deals an additional 1 fire damage.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Frostbite",
+      "enchantmentEffect": "Weapon deals an additional 1 cold damage.",
+      "enchantmentEffectBrief": "Weapon deals an additional 1 cold damage.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Static Charge",
+      "enchantmentEffect": "Weapon deals an additional 1 lightning damage.",
+      "enchantmentEffectBrief": "Weapon deals an additional 1 lightning damage.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Venom Touch",
+      "enchantmentEffect": "Once per turn, deal an additional 1 poison damage.",
+      "enchantmentEffectBrief": "Once per turn, deal an additional 1 poison damage.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Guiding Strike",
+      "enchantmentEffect": "Weapon sheds dim light for 10 feet and ignores disadvantage from dim light.",
+      "enchantmentEffectBrief": "Weapon sheds dim light for 10 feet and ignores disadvantage from dim light.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Hunter's Marking",
+      "enchantmentEffect": "Once per short rest, mark a creature hit by the weapon. Gain +1 damage against it for 1 minute.",
+      "enchantmentEffectBrief": "Once per short rest, mark a creature hit by the weapon.",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Returning",
+      "enchantmentEffect": "Thrown weapon returns to the wielder's hand immediately after the attack.",
+      "enchantmentEffectBrief": "Thrown weapon returns to the wielder's hand immediately after the attack.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Sure Grip",
+      "enchantmentEffect": "Cannot be disarmed unless the wielder is incapacitated.",
+      "enchantmentEffectBrief": "Cannot be disarmed unless the wielder is incapacitated.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Silent Strike",
+      "enchantmentEffect": "Gain +1 bonus to Dexterity (Stealth) checks while the weapon is sheathed.",
+      "enchantmentEffectBrief": "Gain +1 bonus to Dexterity (Stealth) checks while the weapon is sheathed.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Beast Bane",
+      "enchantmentEffect": "Deal +2 damage against Beasts.",
+      "enchantmentEffectBrief": "Deal +2 damage against Beasts.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Undead Bane",
+      "enchantmentEffect": "Deal +2 damage against Undead.",
+      "enchantmentEffectBrief": "Deal +2 damage against Undead.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Swift Draw",
+      "enchantmentEffect": "Drawing this weapon requires no item interaction.",
+      "enchantmentEffectBrief": "Drawing this weapon requires no item interaction.",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Torchbearer",
+      "enchantmentEffect": "Weapon can illuminate a 20-foot radius of bright light.",
+      "enchantmentEffectBrief": "Weapon can illuminate a 20-foot radius of bright light.",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Cleaving Blow",
+      "enchantmentEffect": "Once per turn, when reducing a creature to 0 HP, deal 1 damage to another creature within 5 feet.",
+      "enchantmentEffectBrief": "Once per turn, when reducing a creature to 0 HP, deal 1 damage to another creature within 5 feet.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Arcane Focus",
+      "enchantmentEffect": "Can be used as a spellcasting focus.",
+      "enchantmentEffectBrief": "Can be used as a spellcasting focus.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Wind Cutter",
+      "enchantmentEffect": "Increase range of thrown attacks by 10 feet.",
+      "enchantmentEffectBrief": "Increase range of thrown attacks by 10 feet.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Accurate Balance",
+      "enchantmentEffect": "Gain +1 to attack rolls made at long range with this weapon.",
+      "enchantmentEffectBrief": "Gain +1 to attack rolls made at long range with this weapon.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Blood Scent",
+      "enchantmentEffect": "Gain advantage on Wisdom (Survival) checks to track wounded creatures.",
+      "enchantmentEffectBrief": "Gain advantage on Wisdom (Survival) checks to track wounded creatures.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Momentum",
+      "enchantmentEffect": "Gain +5 feet of movement until end of turn after scoring a critical hit.",
+      "enchantmentEffectBrief": "Gain +5 feet of movement until end of turn after scoring a critical hit.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Weapon"
+    },
+    {
+      "enchantmentName": "Cushioned",
+      "enchantmentEffect": "Reduce falling damage by 10 feet.",
+      "enchantmentEffectBrief": "Reduce falling damage by 10 feet.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Sure Footing",
+      "enchantmentEffect": "Gain +1 bonus to Dexterity (Acrobatics) checks made to maintain balance.",
+      "enchantmentEffectBrief": "Gain +1 bonus to Dexterity (Acrobatics) checks made to maintain balance.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Warmth",
+      "enchantmentEffect": "Protects against normal cold weather.",
+      "enchantmentEffectBrief": "Protects against normal cold weather.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Cooling",
+      "enchantmentEffect": "Protects against normal hot weather.",
+      "enchantmentEffectBrief": "Protects against normal hot weather.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Silent Padding",
+      "enchantmentEffect": "Gain +1 bonus to Dexterity (Stealth) checks.",
+      "enchantmentEffectBrief": "Gain +1 bonus to Dexterity (Stealth) checks.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Reinforced",
+      "enchantmentEffect": "Reduce damage from one nonmagical attack by 1 per round.",
+      "enchantmentEffectBrief": "Reduce damage from one nonmagical attack by 1 per round.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Alertness",
+      "enchantmentEffect": "Gain +1 bonus to initiative rolls.",
+      "enchantmentEffectBrief": "Gain +1 bonus to initiative rolls.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Water Resistant",
+      "enchantmentEffect": "Remain dry during normal rain and light immersion.",
+      "enchantmentEffectBrief": "Remain dry during normal rain and light immersion.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Light Step",
+      "enchantmentEffect": "Ignore nonmagical difficult terrain caused by rubble, mud, or undergrowth.",
+      "enchantmentEffectBrief": "Ignore nonmagical difficult terrain caused by rubble, mud, or undergrowth.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Stable Stance",
+      "enchantmentEffect": "Gain advantage on checks against being knocked prone.",
+      "enchantmentEffectBrief": "Gain advantage on checks against being knocked prone.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Enduring",
+      "enchantmentEffect": "Gain +1 bonus to Constitution checks made to resist exhaustion.",
+      "enchantmentEffectBrief": "Gain +1 bonus to Constitution checks made to resist exhaustion.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Night Sight",
+      "enchantmentEffect": "Gain 10 feet of additional darkvision, or gain 10 feet if you have none.",
+      "enchantmentEffectBrief": "Gain 10 feet of additional darkvision, or gain 10 feet if you have none.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Breath Easy",
+      "enchantmentEffect": "Advantage on saves against inhaled smoke and dust.",
+      "enchantmentEffectBrief": "Advantage on saves against inhaled smoke and dust.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Quick Recovery",
+      "enchantmentEffect": "Gain 1 temporary hit point after finishing a short rest.",
+      "enchantmentEffectBrief": "Gain 1 temporary hit point after finishing a short rest.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Guardian's Mark",
+      "enchantmentEffect": "Allies can identify you from up to 300 feet away by a faint magical glow.",
+      "enchantmentEffectBrief": "Allies can identify you from up to 300 feet away by a faint magical glow.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Featherweight",
+      "enchantmentEffect": "Armor weighs half its normal weight.",
+      "enchantmentEffectBrief": "Armor weighs half its normal weight.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Traveler's Comfort",
+      "enchantmentEffect": "Ignore the first level of exhaustion caused by a forced march each day.",
+      "enchantmentEffectBrief": "Ignore the first level of exhaustion caused by a forced march each day.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Aquatic Adaptation",
+      "enchantmentEffect": "Hold your breath twice as long as normal.",
+      "enchantmentEffectBrief": "Hold your breath twice as long as normal.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Warding Stitching",
+      "enchantmentEffect": "Gain advantage on saving throws against mundane diseases.",
+      "enchantmentEffectBrief": "Gain advantage on saving throws against mundane diseases.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Lantern Ward",
+      "enchantmentEffect": "Armor emits dim light on command.",
+      "enchantmentEffectBrief": "Armor emits dim light on command.",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Armor"
+    },
+    {
+      "enchantmentName": "Arcane Spark",
+      "enchantmentEffect": "Item glows with magical light on command.",
+      "enchantmentEffectBrief": "Item glows with magical light on command.",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Rune of Mending",
+      "enchantmentEffect": "Repairs minor cosmetic damage during a long rest.",
+      "enchantmentEffectBrief": "Repairs minor cosmetic damage during a long rest.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Bound Item",
+      "enchantmentEffect": "Cannot be accidentally lost and can always be located within 100 feet.",
+      "enchantmentEffectBrief": "Cannot be accidentally lost and can always be located within 100 feet.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Traveler's Charm",
+      "enchantmentEffect": "Gain +1 bonus to one chosen skill check once per long rest.",
+      "enchantmentEffectBrief": "Gain +1 bonus to one chosen skill check once per long rest.",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Whispering Rune",
+      "enchantmentEffect": "Item can transmit a whispered message to its owner within 60 feet.",
+      "enchantmentEffectBrief": "Item can transmit a whispered message to its owner within 60 feet.",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Lucky Trinket",
+      "enchantmentEffect": "Once per long rest, reroll a natural 1 on an ability check.",
+      "enchantmentEffectBrief": "Once per long rest, reroll a natural 1 on an ability check.",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Elemental Ward",
+      "enchantmentEffect": "Gain resistance to environmental effects related to one element, such as heat, cold, wind, or similar hazards.",
+      "enchantmentEffectBrief": "Gain resistance to environmental effects related to one element, such as heat, cold, wind, or...",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Sentinel's Glow",
+      "enchantmentEffect": "Item glows when hostile creatures are within 30 feet.",
+      "enchantmentEffectBrief": "Item glows when hostile creatures are within 30 feet.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Fortune's Favor",
+      "enchantmentEffect": "Gain +1 bonus on one saving throw per long rest.",
+      "enchantmentEffectBrief": "Gain +1 bonus on one saving throw per long rest.",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Echoing Memory",
+      "enchantmentEffect": "Item perfectly records one spoken sentence each day.",
+      "enchantmentEffectBrief": "Item perfectly records one spoken sentence each day.",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Prestidigitation Rune",
+      "enchantmentEffect": "Cast Prestidigitation at will while holding or wearing the item.",
+      "enchantmentEffectBrief": "Cast Prestidigitation at will while holding or wearing the item.",
+      "enchantmentAction": "Action",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Message Rune",
+      "enchantmentEffect": "Cast Message once per short rest.",
+      "enchantmentEffectBrief": "Cast Message once per short rest.",
+      "enchantmentAction": "Action",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Minor Shielding",
+      "enchantmentEffect": "Gain 1 temporary hit point after rolling initiative.",
+      "enchantmentEffectBrief": "Gain 1 temporary hit point after rolling initiative.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Vigilance",
+      "enchantmentEffect": "Cannot be surprised while conscious once per long rest.",
+      "enchantmentEffectBrief": "Cannot be surprised while conscious once per long rest.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Wayfinder",
+      "enchantmentEffect": "Always know which direction is north.",
+      "enchantmentEffectBrief": "Always know which direction is north.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Beast Friend",
+      "enchantmentEffect": "Gain advantage on one Animal Handling check per short rest.",
+      "enchantmentEffectBrief": "Gain advantage on one Animal Handling check per short rest.",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Shadow Veil",
+      "enchantmentEffect": "Dim the item's appearance, granting advantage on checks to conceal it.",
+      "enchantmentEffectBrief": "Dim the item's appearance, granting advantage on checks to conceal it.",
+      "enchantmentAction": "Free",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Hearthstone",
+      "enchantmentEffect": "Item becomes comfortably warm regardless of weather.",
+      "enchantmentEffectBrief": "Item becomes comfortably warm regardless of weather.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Water Walker's Aid",
+      "enchantmentEffect": "Ignore the first 5 feet of water when calculating movement penalties.",
+      "enchantmentEffectBrief": "Ignore the first 5 feet of water when calculating movement penalties.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Either"
+    },
+    {
+      "enchantmentName": "Preservation",
+      "enchantmentEffect": "Food, drink, or materials carried alongside the item spoil at half the normal rate.",
+      "enchantmentEffectBrief": "Food, drink, or materials carried alongside the item spoil at half the normal rate.",
+      "enchantmentAction": "Innate",
+      "enchantmentType": "Either"
+    }
+  ],
+  "commonSpells": [
+    {
+      "spellName": "Searing Smite",
+      "spellEffect": "Ignites the weapon, dealing ongoing fire damage.",
+      "spellAction": "Bonus",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Thunderous Smite",
+      "spellEffect": "Delivers a concussive strike that can push enemies.",
+      "spellAction": "Bonus",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Wrathful Smite",
+      "spellEffect": "Inflicts fear through a terrifying blow.",
+      "spellAction": "Bonus",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Compelled Duel",
+      "spellEffect": "Forces enemies to focus on the wielder.",
+      "spellAction": "Bonus",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Inflict Wounds",
+      "spellEffect": "Delivers necrotic energy through the blade.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Shield of Faith",
+      "spellEffect": "Creates a protective aura after striking.",
+      "spellAction": "Bonus",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Heroism",
+      "spellEffect": "Grants temporary courage when entering combat.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Command",
+      "spellEffect": "Allows the weapon to project authority into a struck foe.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Bane",
+      "spellEffect": "Weakens enemies wounded by the weapon.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Bless",
+      "spellEffect": "Empowers allies while wielding the weapon.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Cause Fear",
+      "spellEffect": "Causes terror in creatures struck.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Protection from Evil and Good",
+      "spellEffect": "Ideal for holy or anti-monster weapons.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Hunter's Mark",
+      "spellEffect": "Marks targets struck by arrows or bolts.",
+      "spellAction": "Bonus",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Ensnaring Strike",
+      "spellEffect": "Causes vines or magical bindings to erupt from ammunition.",
+      "spellAction": "Bonus",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Hail of Thorns",
+      "spellEffect": "Creates an area attack upon impact.",
+      "spellAction": "Bonus",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Fog Cloud",
+      "spellEffect": "Fires ammunition that creates concealment.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Ice Knife",
+      "spellEffect": "Converts ammunition into an explosive icy projectile.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Snare",
+      "spellEffect": "Useful for hunting-themed bows.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Longstrider",
+      "spellEffect": "Grants increased mobility to ranged combatants.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Faerie Fire",
+      "spellEffect": "Illuminates struck enemies.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Hex",
+      "spellEffect": "Curses targets from afar.",
+      "spellAction": "Bonus",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Zephyr Strike",
+      "spellEffect": "Perfect for mobile archers.",
+      "spellAction": "Bonus",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Silent Image",
+      "spellEffect": "Creates distractions from a fired projectile.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Disguise Self",
+      "spellEffect": "Fits scout or assassin-themed ranged weapons.",
+      "spellAction": "Action",
+      "spellType": "Weapon"
+    },
+    {
+      "spellName": "Absorb Elements",
+      "spellEffect": "Stores elemental energy and releases it on the next hit.",
+      "spellAction": "Free",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Chromatic Orb",
+      "spellEffect": "Allows selection of elemental damage types.",
+      "spellAction": "Action",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Detect Magic",
+      "spellEffect": "Turns the weapon into a magical detector.",
+      "spellAction": "Action",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Detect Evil and Good",
+      "spellEffect": "Reveals supernatural threats.",
+      "spellAction": "Action",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Detect Poison and Disease",
+      "spellEffect": "Useful for adventuring equipment.",
+      "spellAction": "Action",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Expeditious Retreat",
+      "spellEffect": "Improves combat mobility.",
+      "spellAction": "Bonus",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "False Life",
+      "spellEffect": "Grants temporary hit points.",
+      "spellAction": "Action",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Feather Fall",
+      "spellEffect": "Emergency protection.",
+      "spellAction": "Free",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Jump",
+      "spellEffect": "Enhances battlefield movement.",
+      "spellAction": "Action",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Protection from Evil and Good",
+      "spellEffect": "Excellent defensive enchantment.",
+      "spellAction": "Action",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Sanctuary",
+      "spellEffect": "Defensive utility.",
+      "spellAction": "Bonus",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Shield",
+      "spellEffect": "Reactive protection.",
+      "spellAction": "Free",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Tasha's Caustic Brew",
+      "spellEffect": "Acid-themed weapon enchantment.",
+      "spellAction": "Action",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Unseen Servant",
+      "spellEffect": "Utility enchantment for adventurers.",
+      "spellAction": "Action",
+      "spellType": "Either"
+    },
+    {
+      "spellName": "Witch Bolt",
+      "spellEffect": "Channel lightning through weapon strikes.",
+      "spellAction": "Action",
+      "spellType": "Either"
+    }
+  ]
+}
