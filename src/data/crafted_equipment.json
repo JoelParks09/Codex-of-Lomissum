@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "equipment_name": "Traveler's Plate",
+    "equipment_type": "Armor",
+    "base_item": "Plate",
+    "rarity": "Refined",
+    "crafting_material": "Brightsteel",
+    "material_effect": "30 feet of light",
+    "enchantments": [
+      {
+        "enchantment_name": "Traveler's Charm",
+        "enchantment_description": "Gain +1 bonus to one chosen skill check once per long rest.",
+        "enchantment_action": "Innate"
+      },
+      {
+        "enchantment_name": "Traveler's Comfort",
+        "enchantment_description": "Ignore the first level of exhaustion caused by a forced march each day.",
+        "enchantment_action": "Innate"
+      }
+    ],
+    "armor_class": "18",
+    "armor_class_bonus": 1,
+    "required_strength": "Str 15",
+    "stealth": "Disadvantage"
+  },
+  {
+    "equipment_name": "Bonesplitter",
+    "equipment_type": "Weapon",
+    "base_item": "Battleaxe",
+    "rarity": "Refined",
+    "crafting_material": "Brightsteel",
+    "material_effect": "Up to level 4 spell",
+    "enchantments": [
+      {
+        "enchantment_name": "Undead Bane",
+        "enchantment_description": "Deal +2 damage against Undead.",
+        "enchantment_action": "Innate"
+      }
+    ],
+    "spells": [
+      {
+        "spell_name": "Wrathful Smite",
+        "spell_description": "The next time you hit with a melee weapon attack during this spell's duration, your attack deals an extra 1d6 psychic damage. Additionally, if the target is a creature, it must make a Wisdom saving throw or be frightened of you until the spell ends. As an action, the creature can make a Wisdom check against your spell save DC to steel its resolve and end this spell.",
+        "spell_action": "Bonus"
+      }
+    ],
+    "weapon_damage": "1d8 slashing",
+    "weapon_bonus": 1,
+    "weapon_properties": "Versatile (1d10)"
+  }
+]

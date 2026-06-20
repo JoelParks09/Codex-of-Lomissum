@@ -73,9 +73,14 @@
   .player-facts,
   .ability-grid,
   .segmented-control,
-  .magic-fields,
-  .material-summary dl {
+  .crafting-workspace,
+  .basic-info-grid,
+  .crafted-detail-columns {
     grid-template-columns: 1fr;
+  }
+
+  .item-summary-panel {
+    position: static;
   }
 
   .markdown-layout {

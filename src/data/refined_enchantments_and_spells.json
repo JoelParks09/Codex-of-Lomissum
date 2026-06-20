@@ -318,244 +318,124 @@
   ],
   "refinedSpells": [
     {
-      "spellName": "Branding Smite",
-      "spellEffect": "A melee strike flares with radiant energy and can reveal an invisible target.",
-      "spellAction": "Bonus",
-      "spellType": "Weapon"
+      "spellName": "Branding Smite"
     },
     {
-      "spellName": "Magic Weapon",
-      "spellEffect": "Temporarily turns the weapon into a stronger magical weapon.",
-      "spellAction": "Bonus",
-      "spellType": "Weapon"
+      "spellName": "Magic Weapon"
     },
     {
-      "spellName": "Shadow Blade",
-      "spellEffect": "Creates or empowers a melee weapon with shadowy psychic energy.",
-      "spellAction": "Bonus",
-      "spellType": "Weapon"
+      "spellName": "Shadow Blade"
     },
     {
-      "spellName": "Flame Blade",
-      "spellEffect": "Creates or channels a melee blade of fire.",
-      "spellAction": "Bonus",
-      "spellType": "Weapon"
+      "spellName": "Flame Blade"
     },
     {
-      "spellName": "Spiritual Weapon",
-      "spellEffect": "Creates a spectral weapon that attacks near the wielder.",
-      "spellAction": "Bonus",
-      "spellType": "Weapon"
+      "spellName": "Spiritual Weapon"
     },
     {
-      "spellName": "Blur",
-      "spellEffect": "Protects a melee combatant by making their form harder to target.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Blur"
     },
     {
-      "spellName": "Haste",
-      "spellEffect": "Infuses the wielder with speed, defense, and supernatural combat momentum.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Haste"
     },
     {
-      "spellName": "Elemental Weapon",
-      "spellEffect": "Empowers the weapon with elemental damage.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Elemental Weapon"
     },
     {
-      "spellName": "Crusader's Mantle",
-      "spellEffect": "Radiates martial power that empowers nearby allies' weapon attacks.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Crusader's Mantle"
     },
     {
-      "spellName": "Spirit Shroud",
-      "spellEffect": "Surrounds the wielder with spirits that empower close-range weapon strikes.",
-      "spellAction": "Bonus",
-      "spellType": "Weapon"
+      "spellName": "Spirit Shroud"
     },
     {
-      "spellName": "Vampiric Touch",
-      "spellEffect": "Lets a melee weapon channel necrotic energy that steals vitality.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Vampiric Touch"
     },
     {
-      "spellName": "Blinding Smite",
-      "spellEffect": "Turns a melee strike into a flash of radiance that can blind the target.",
-      "spellAction": "Bonus",
-      "spellType": "Weapon"
+      "spellName": "Blinding Smite"
     },
     {
-      "spellName": "Cordon of Arrows",
-      "spellEffect": "Turns ammunition into a magical perimeter trap.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Cordon of Arrows"
     },
     {
-      "spellName": "Melf's Acid Arrow",
-      "spellEffect": "Converts a shot into a burning acid projectile.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Melf's Acid Arrow"
     },
     {
-      "spellName": "Scorching Ray",
-      "spellEffect": "Lets a ranged weapon release multiple rays of fire.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Scorching Ray"
     },
     {
-      "spellName": "Shatter",
-      "spellEffect": "Turns a fired shot into a concussive burst at the point of impact.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Shatter"
     },
     {
-      "spellName": "Web",
-      "spellEffect": "Causes a projectile to burst into restraining strands.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Web"
     },
     {
-      "spellName": "Spike Growth",
-      "spellEffect": "Creates hazardous terrain around where the ammunition lands.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Spike Growth"
     },
     {
-      "spellName": "Cloud of Daggers",
-      "spellEffect": "Creates a spinning blade hazard at the target point.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Cloud of Daggers"
     },
     {
-      "spellName": "Lightning Arrow",
-      "spellEffect": "Transforms ammunition into a lightning-charged strike.",
-      "spellAction": "Bonus",
-      "spellType": "Weapon"
+      "spellName": "Lightning Arrow"
     },
     {
-      "spellName": "Flame Arrows",
-      "spellEffect": "Empowers ammunition with fire damage.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Flame Arrows"
     },
     {
-      "spellName": "Conjure Barrage",
-      "spellEffect": "Multiplies a thrown weapon or piece of ammunition into a sweeping barrage.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Conjure Barrage"
     },
     {
-      "spellName": "Slow",
-      "spellEffect": "Allows a ranged weapon to unleash time-warping magic over an area.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Slow"
     },
     {
-      "spellName": "Sleet Storm",
-      "spellEffect": "Creates a storm zone where a projectile lands, disrupting movement and concentration.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Sleet Storm"
     },
     {
-      "spellName": "Dragon's Breath",
-      "spellEffect": "Allows the weapon or its wielder to release elemental breath-like energy.",
-      "spellAction": "Bonus",
-      "spellType": "Either"
+      "spellName": "Dragon's Breath"
     },
     {
-      "spellName": "Hold Person",
-      "spellEffect": "Lets the weapon bind a humanoid target with paralyzing magic.",
-      "spellAction": "Action",
-      "spellType": "Either"
+      "spellName": "Hold Person"
     },
     {
-      "spellName": "Misty Step",
-      "spellEffect": "Allows the wielder to teleport into or out of weapon range.",
-      "spellAction": "Bonus",
-      "spellType": "Either"
+      "spellName": "Misty Step"
     },
     {
-      "spellName": "Invisibility",
-      "spellEffect": "Allows the wielder to vanish before repositioning or attacking.",
-      "spellAction": "Action",
-      "spellType": "Either"
+      "spellName": "Invisibility"
     },
     {
-      "spellName": "Mirror Image",
-      "spellEffect": "Creates illusory duplicates that protect a weapon wielder.",
-      "spellAction": "Action",
-      "spellType": "Either"
+      "spellName": "Mirror Image"
     },
     {
-      "spellName": "See Invisibility",
-      "spellEffect": "Helps the wielder strike hidden or invisible targets.",
-      "spellAction": "Action",
-      "spellType": "Either"
+      "spellName": "See Invisibility"
     },
     {
-      "spellName": "Darkness",
-      "spellEffect": "Allows the weapon to create a field of magical darkness.",
-      "spellAction": "Action",
-      "spellType": "Either"
+      "spellName": "Darkness"
     },
     {
-      "spellName": "Silence",
-      "spellEffect": "Allows the weapon to create a zone that suppresses sound and spellcasting with verbal components.",
-      "spellAction": "Action",
-      "spellType": "Either"
+      "spellName": "Silence"
     },
     {
-      "spellName": "Aid",
-      "spellEffect": "Empowers the wielder and allies with bolstered vitality.",
-      "spellAction": "Action",
-      "spellType": "Either"
+      "spellName": "Aid"
     },
     {
-      "spellName": "Blink",
-      "spellEffect": "Causes the wielder to slip between planes during combat.",
-      "spellAction": "Action",
-      "spellType": "Either"
+      "spellName": "Blink"
     },
     {
-      "spellName": "Fly",
-      "spellEffect": "Allows the wielder to fight from the air or reach distant targets.",
-      "spellAction": "Action",
-      "spellType": "Either"
+      "spellName": "Fly"
     },
     {
-      "spellName": "Counterspell",
-      "spellEffect": "Lets the weapon disrupt enemy spellcasting.",
-      "spellAction": "Free",
-      "spellType": "Either"
+      "spellName": "Counterspell"
     },
     {
-      "spellName": "Dispel Magic",
-      "spellEffect": "Lets the weapon suppress or unravel magical effects.",
-      "spellAction": "Action",
-      "spellType": "Either"
+      "spellName": "Dispel Magic"
     },
     {
-      "spellName": "Fear",
-      "spellEffect": "Allows the weapon to unleash a terrifying presence.",
-      "spellAction": "Action",
-      "spellType": "Either"
+      "spellName": "Fear"
     },
     {
-      "spellName": "Hypnotic Pattern",
-      "spellEffect": "Lets the weapon create a distracting magical display that can incapacitate creatures.",
-      "spellAction": "Action",
-      "spellType": "Either"
+      "spellName": "Hypnotic Pattern"
     },
     {
-      "spellName": "Protection from Energy",
-      "spellEffect": "Lets the weapon shield its wielder from a chosen elemental damage type.",
-      "spellAction": "Action",
-      "spellType": "Either"
+      "spellName": "Protection from Energy"
     }
   ]
 }

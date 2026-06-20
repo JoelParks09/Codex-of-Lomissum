@@ -103,8 +103,8 @@
       "materialTier": "Common",
       "baseWeaponBonus": 0,
       "baseArmorBonus": 0,
-      "baseEnchantmentSlots": 0,
-      "maximumEnchantmentSlots": 1,
+      "baseEnchantmentSlots": 1,
+      "maximumEnchantmentSlots": 2,
       "craftingTime": "4 hours",
       "requiredCrafter": "Journeyman Blacksmith",
       "validItemTypes": [
@@ -160,8 +160,8 @@
       "materialTier": "Refined",
       "baseWeaponBonus": 1,
       "baseArmorBonus": 1,
-      "baseEnchantmentSlots": 1,
-      "maximumEnchantmentSlots": 2,
+      "baseEnchantmentSlots": 2,
+      "maximumEnchantmentSlots": 3,
       "craftingTime": "8 hours",
       "requiredCrafter": "Master Blacksmith",
       "validItemTypes": [

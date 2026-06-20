@@ -423,238 +423,121 @@
   ],
   "commonSpells": [
     {
-      "spellName": "Searing Smite",
-      "spellEffect": "Ignites the weapon, dealing ongoing fire damage.",
-      "spellAction": "Bonus",
-      "spellType": "Weapon"
+      "spellName": "Searing Smite"
     },
     {
-      "spellName": "Thunderous Smite",
-      "spellEffect": "Delivers a concussive strike that can push enemies.",
-      "spellAction": "Bonus",
-      "spellType": "Weapon"
+      "spellName": "Thunderous Smite"
     },
     {
-      "spellName": "Wrathful Smite",
-      "spellEffect": "Inflicts fear through a terrifying blow.",
-      "spellAction": "Bonus",
-      "spellType": "Weapon"
+      "spellName": "Wrathful Smite"
     },
     {
-      "spellName": "Compelled Duel",
-      "spellEffect": "Forces enemies to focus on the wielder.",
-      "spellAction": "Bonus",
-      "spellType": "Weapon"
+      "spellName": "Compelled Duel"
     },
     {
-      "spellName": "Inflict Wounds",
-      "spellEffect": "Delivers necrotic energy through the blade.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Inflict Wounds"
     },
     {
-      "spellName": "Shield of Faith",
-      "spellEffect": "Creates a protective aura after striking.",
-      "spellAction": "Bonus",
-      "spellType": "Weapon"
+      "spellName": "Shield of Faith"
     },
     {
-      "spellName": "Heroism",
-      "spellEffect": "Grants temporary courage when entering combat.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Heroism"
     },
     {
-      "spellName": "Command",
-      "spellEffect": "Allows the weapon to project authority into a struck foe.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Command"
     },
     {
-      "spellName": "Bane",
-      "spellEffect": "Weakens enemies wounded by the weapon.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Bane"
     },
     {
-      "spellName": "Bless",
-      "spellEffect": "Empowers allies while wielding the weapon.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Bless"
     },
     {
-      "spellName": "Cause Fear",
-      "spellEffect": "Causes terror in creatures struck.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Cause Fear"
     },
     {
-      "spellName": "Protection from Evil and Good",
-      "spellEffect": "Ideal for holy or anti-monster weapons.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Protection from Evil and Good"
     },
     {
-      "spellName": "Hunter's Mark",
-      "spellEffect": "Marks targets struck by arrows or bolts.",
-      "spellAction": "Bonus",
-      "spellType": "Weapon"
+      "spellName": "Hunter's Mark"
     },
     {
-      "spellName": "Ensnaring Strike",
-      "spellEffect": "Causes vines or magical bindings to erupt from ammunition.",
-      "spellAction": "Bonus",
-      "spellType": "Weapon"
+      "spellName": "Ensnaring Strike"
     },
     {
-      "spellName": "Hail of Thorns",
-      "spellEffect": "Creates an area attack upon impact.",
-      "spellAction": "Bonus",
-      "spellType": "Weapon"
+      "spellName": "Hail of Thorns"
     },
     {
-      "spellName": "Fog Cloud",
-      "spellEffect": "Fires ammunition that creates concealment.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Fog Cloud"
     },
     {
-      "spellName": "Ice Knife",
-      "spellEffect": "Converts ammunition into an explosive icy projectile.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Ice Knife"
     },
     {
-      "spellName": "Snare",
-      "spellEffect": "Useful for hunting-themed bows.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Snare"
     },
     {
-      "spellName": "Longstrider",
-      "spellEffect": "Grants increased mobility to ranged combatants.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Longstrider"
     },
     {
-      "spellName": "Faerie Fire",
-      "spellEffect": "Illuminates struck enemies.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Faerie Fire"
     },
     {
-      "spellName": "Hex",
-      "spellEffect": "Curses targets from afar.",
-      "spellAction": "Bonus",
-      "spellType": "Weapon"
+      "spellName": "Hex"
     },
     {
-      "spellName": "Zephyr Strike",
-      "spellEffect": "Perfect for mobile archers.",
-      "spellAction": "Bonus",
-      "spellType": "Weapon"
+      "spellName": "Zephyr Strike"
     },
     {
-      "spellName": "Silent Image",
-      "spellEffect": "Creates distractions from a fired projectile.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Silent Image"
     },
     {
-      "spellName": "Disguise Self",
-      "spellEffect": "Fits scout or assassin-themed ranged weapons.",
-      "spellAction": "Action",
-      "spellType": "Weapon"
+      "spellName": "Disguise Self"
     },
     {
-      "spellName": "Absorb Elements",
-      "spellEffect": "Stores elemental energy and releases it on the next hit.",
-      "spellAction": "Free",
-      "spellType": "Either"
+      "spellName": "Absorb Elements"
     },
     {
-      "spellName": "Chromatic Orb",
-      "spellEffect": "Allows selection of elemental damage types.",
-      "spellAction": "Action",
-      "spellType": "Either"
+      "spellName": "Chromatic Orb"
     },
     {
-      "spellName": "Detect Magic",
-      "spellEffect": "Turns the weapon into a magical detector.",
-      "spellAction": "Action",
-      "spellType": "Either"
+      "spellName": "Detect Magic"
     },
     {
-      "spellName": "Detect Evil and Good",
-      "spellEffect": "Reveals supernatural threats.",
-      "spellAction": "Action",
-      "spellType": "Either"
+      "spellName": "Detect Evil and Good"
     },
     {
-      "spellName": "Detect Poison and Disease",
-      "spellEffect": "Useful for adventuring equipment.",
-      "spellAction": "Action",
-      "spellType": "Either"
+      "spellName": "Detect Poison and Disease"
     },
     {
-      "spellName": "Expeditious Retreat",
-      "spellEffect": "Improves combat mobility.",
-      "spellAction": "Bonus",
-      "spellType": "Either"
+      "spellName": "Expeditious Retreat"
     },
     {
-      "spellName": "False Life",
-      "spellEffect": "Grants temporary hit points.",
-      "spellAction": "Action",
-      "spellType": "Either"
+      "spellName": "False Life"
     },
     {
-      "spellName": "Feather Fall",
-      "spellEffect": "Emergency protection.",
-      "spellAction": "Free",
-      "spellType": "Either"
+      "spellName": "Feather Fall"
     },
     {
-      "spellName": "Jump",
-      "spellEffect": "Enhances battlefield movement.",
-      "spellAction": "Action",
-      "spellType": "Either"
+      "spellName": "Jump"
     },
     {
-      "spellName": "Protection from Evil and Good",
-      "spellEffect": "Excellent defensive enchantment.",
-      "spellAction": "Action",
-      "spellType": "Either"
+      "spellName": "Protection from Evil and Good"
     },
     {
-      "spellName": "Sanctuary",
-      "spellEffect": "Defensive utility.",
-      "spellAction": "Bonus",
-      "spellType": "Either"
+      "spellName": "Sanctuary"
     },
     {
-      "spellName": "Shield",
-      "spellEffect": "Reactive protection.",
-      "spellAction": "Free",
-      "spellType": "Either"
+      "spellName": "Shield"
     },
     {
-      "spellName": "Tasha's Caustic Brew",
-      "spellEffect": "Acid-themed weapon enchantment.",
-      "spellAction": "Action",
-      "spellType": "Either"
+      "spellName": "Tasha's Caustic Brew"
     },
     {
-      "spellName": "Unseen Servant",
-      "spellEffect": "Utility enchantment for adventurers.",
-      "spellAction": "Action",
-      "spellType": "Either"
+      "spellName": "Unseen Servant"
     },
     {
-      "spellName": "Witch Bolt",
-      "spellEffect": "Channel lightning through weapon strikes.",
-      "spellAction": "Action",
-      "spellType": "Either"
+      "spellName": "Witch Bolt"
     }
   ]
 }
